@@ -1,1 +1,837 @@
+--[=[
+ d888b  db    db d888888b      .d888b.      db      db    db  .d8b.  
+88' Y8b 88    88   `88'        VP  `8D      88      88    88 d8' `8b 
+88      88    88    88            odD'      88      88    88 88ooo88 
+88  ooo 88    88    88          .88'        88      88    88 88~~~88 
+88. ~8~ 88b  d88   .88.        j88.         88booo. 88b  d88 88   88    @uniquadev
+ Y888P  ~Y8888P' Y888888P      888888D      Y88888P ~Y8888P' YP   YP  CONVERTER 
+]=]
 
+-- Instances: 34 | Scripts: 10 | Modules: 0 | Tags: 0
+local G2L = {};
+
+-- Workspace.tlon hub
+G2L["1"] = Instance.new("ScreenGui", game:GetService("Players").LocalPlayer:WaitForChild("PlayerGui"));
+G2L["1"]["Name"] = [[tlon hub]];
+G2L["1"]["ZIndexBehavior"] = Enum.ZIndexBehavior.Sibling;
+
+
+-- Workspace.tlon hub.Frame
+G2L["2"] = Instance.new("Frame", G2L["1"]);
+G2L["2"]["BorderSizePixel"] = 0;
+G2L["2"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["2"]["Size"] = UDim2.new(0, 348, 0, 370);
+G2L["2"]["Position"] = UDim2.new(0.30866, 0, 0.19444, 0);
+G2L["2"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+
+
+-- Workspace.tlon hub.Frame.LocalScript
+G2L["3"] = Instance.new("LocalScript", G2L["2"]);
+
+
+
+-- Workspace.tlon hub.Frame.Frame
+G2L["4"] = Instance.new("Frame", G2L["2"]);
+G2L["4"]["BorderSizePixel"] = 0;
+G2L["4"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["4"]["Size"] = UDim2.new(0, 330, 0, 278);
+G2L["4"]["Position"] = UDim2.new(0.02586, 0, 0.22703, 0);
+G2L["4"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["4"]["BackgroundTransparency"] = 1;
+
+
+-- Workspace.tlon hub.Frame.Frame.info
+G2L["5"] = Instance.new("TextLabel", G2L["4"]);
+G2L["5"]["BorderSizePixel"] = 0;
+G2L["5"]["TextSize"] = 14;
+G2L["5"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["5"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["5"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["5"]["BackgroundTransparency"] = 1;
+G2L["5"]["Size"] = UDim2.new(0, 200, 0, 20);
+G2L["5"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["5"]["Text"] = [[Choose from the commands below!]];
+G2L["5"]["Name"] = [[info]];
+G2L["5"]["Position"] = UDim2.new(0.19394, 0, -0.02158, 0);
+
+
+-- Workspace.tlon hub.Frame.Frame.teleports header
+G2L["6"] = Instance.new("TextLabel", G2L["4"]);
+G2L["6"]["BorderSizePixel"] = 0;
+G2L["6"]["TextSize"] = 17;
+G2L["6"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["6"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Italic);
+G2L["6"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["6"]["BackgroundTransparency"] = 1;
+G2L["6"]["Size"] = UDim2.new(0, 104, 0, 20);
+G2L["6"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["6"]["Text"] = [[Teleports]];
+G2L["6"]["Name"] = [[teleports header]];
+G2L["6"]["Position"] = UDim2.new(0, 0, 0.08273, 0);
+
+
+-- Workspace.tlon hub.Frame.Frame.teleports header.Shop Teleports
+G2L["7"] = Instance.new("TextButton", G2L["6"]);
+G2L["7"]["BorderSizePixel"] = 0;
+G2L["7"]["TextSize"] = 14;
+G2L["7"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["7"]["BackgroundColor3"] = Color3.fromRGB(77, 77, 77);
+G2L["7"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["7"]["Size"] = UDim2.new(0, 99, 0, 36);
+G2L["7"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["7"]["Text"] = [[Shops]];
+G2L["7"]["Name"] = [[Shop Teleports]];
+G2L["7"]["Position"] = UDim2.new(0.01515, 0, 4.1277, 0);
+
+
+-- Workspace.tlon hub.Frame.Frame.teleports header.Shop Teleports.UICorner
+G2L["8"] = Instance.new("UICorner", G2L["7"]);
+
+
+
+-- Workspace.tlon hub.Frame.Frame.teleports header.Shop Teleports.LocalScript
+G2L["9"] = Instance.new("LocalScript", G2L["7"]);
+
+
+
+-- Workspace.tlon hub.Frame.Frame.teleports header.Boss Teleports
+G2L["a"] = Instance.new("TextButton", G2L["6"]);
+G2L["a"]["BorderSizePixel"] = 0;
+G2L["a"]["TextSize"] = 14;
+G2L["a"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["a"]["BackgroundColor3"] = Color3.fromRGB(77, 77, 77);
+G2L["a"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["a"]["Size"] = UDim2.new(0, 99, 0, 36);
+G2L["a"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["a"]["Text"] = [[Bosses]];
+G2L["a"]["Name"] = [[Boss Teleports]];
+G2L["a"]["Position"] = UDim2.new(0.01515, 0, 1.76223, 0);
+
+
+-- Workspace.tlon hub.Frame.Frame.teleports header.Boss Teleports.LocalScript
+G2L["b"] = Instance.new("LocalScript", G2L["a"]);
+
+
+
+-- Workspace.tlon hub.Frame.Frame.teleports header.Boss Teleports.UICorner
+G2L["c"] = Instance.new("UICorner", G2L["a"]);
+
+
+
+-- Workspace.tlon hub.Frame.Frame.Player Header
+G2L["d"] = Instance.new("TextLabel", G2L["4"]);
+G2L["d"]["BorderSizePixel"] = 0;
+G2L["d"]["TextSize"] = 17;
+G2L["d"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["d"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Italic);
+G2L["d"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["d"]["BackgroundTransparency"] = 1;
+G2L["d"]["Size"] = UDim2.new(0, 104, 0, 20);
+G2L["d"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["d"]["Text"] = [[Local Player]];
+G2L["d"]["Name"] = [[Player Header]];
+G2L["d"]["Position"] = UDim2.new(0.34242, 0, 0.08273, 0);
+
+
+-- Workspace.tlon hub.Frame.Frame.Player Header.Fly
+G2L["e"] = Instance.new("TextButton", G2L["d"]);
+G2L["e"]["BorderSizePixel"] = 0;
+G2L["e"]["TextSize"] = 14;
+G2L["e"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["e"]["BackgroundColor3"] = Color3.fromRGB(77, 77, 77);
+G2L["e"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["e"]["Size"] = UDim2.new(0, 99, 0, 36);
+G2L["e"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["e"]["Text"] = [[Fly (K)]];
+G2L["e"]["Name"] = [[Fly]];
+G2L["e"]["Position"] = UDim2.new(0.00554, 0, 1.7277, 0);
+
+
+-- Workspace.tlon hub.Frame.Frame.Player Header.Fly.UICorner
+G2L["f"] = Instance.new("UICorner", G2L["e"]);
+
+
+
+-- Workspace.tlon hub.Frame.Frame.Player Header.Fly.LocalScript
+G2L["10"] = Instance.new("LocalScript", G2L["e"]);
+
+
+
+-- Workspace.tlon hub.Frame.Frame.Player Header.No Clip
+G2L["11"] = Instance.new("TextButton", G2L["d"]);
+G2L["11"]["BorderSizePixel"] = 0;
+G2L["11"]["TextSize"] = 14;
+G2L["11"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["11"]["BackgroundColor3"] = Color3.fromRGB(77, 77, 77);
+G2L["11"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["11"]["Size"] = UDim2.new(0, 99, 0, 36);
+G2L["11"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["11"]["Text"] = [[No Clip (N)]];
+G2L["11"]["Name"] = [[No Clip]];
+G2L["11"]["Position"] = UDim2.new(-0.00408, 0, 4.1277, 0);
+
+
+-- Workspace.tlon hub.Frame.Frame.Player Header.No Clip.UICorner
+G2L["12"] = Instance.new("UICorner", G2L["11"]);
+
+
+
+-- Workspace.tlon hub.Frame.Frame.Player Header.No Clip.LocalScript
+G2L["13"] = Instance.new("LocalScript", G2L["11"]);
+
+
+
+-- Workspace.tlon hub.Frame.Frame.Player Header.Walkspeed
+G2L["14"] = Instance.new("TextButton", G2L["d"]);
+G2L["14"]["BorderSizePixel"] = 0;
+G2L["14"]["TextSize"] = 14;
+G2L["14"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["14"]["BackgroundColor3"] = Color3.fromRGB(77, 77, 77);
+G2L["14"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["14"]["Size"] = UDim2.new(0, 99, 0, 36);
+G2L["14"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["14"]["Text"] = [[Walkspeed]];
+G2L["14"]["Name"] = [[Walkspeed]];
+G2L["14"]["Position"] = UDim2.new(-0.00408, 0, 6.4777, 0);
+
+
+-- Workspace.tlon hub.Frame.Frame.Player Header.Walkspeed.UICorner
+G2L["15"] = Instance.new("UICorner", G2L["14"]);
+
+
+
+-- Workspace.tlon hub.Frame.Frame.Player Header.Walkspeed.LocalScript
+G2L["16"] = Instance.new("LocalScript", G2L["14"]);
+
+
+
+-- Workspace.tlon hub.Frame.Frame.Autofarm header
+G2L["17"] = Instance.new("TextLabel", G2L["4"]);
+G2L["17"]["BorderSizePixel"] = 0;
+G2L["17"]["TextSize"] = 17;
+G2L["17"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["17"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Italic);
+G2L["17"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["17"]["BackgroundTransparency"] = 1;
+G2L["17"]["Size"] = UDim2.new(0, 104, 0, 20);
+G2L["17"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["17"]["Text"] = [[Auto Farm(s)]];
+G2L["17"]["Name"] = [[Autofarm header]];
+G2L["17"]["Position"] = UDim2.new(0.69091, 0, 0.08273, 0);
+
+
+-- Workspace.tlon hub.Frame.Frame.Autofarm header.Champions Arena
+G2L["18"] = Instance.new("TextButton", G2L["17"]);
+G2L["18"]["BorderSizePixel"] = 0;
+G2L["18"]["TextSize"] = 12;
+G2L["18"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["18"]["BackgroundColor3"] = Color3.fromRGB(77, 77, 77);
+G2L["18"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["18"]["Size"] = UDim2.new(0, 99, 0, 36);
+G2L["18"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["18"]["Text"] = [[Champions Arena (F)]];
+G2L["18"]["Name"] = [[Champions Arena]];
+G2L["18"]["Position"] = UDim2.new(0.01515, 0, 1.7277, 0);
+
+
+-- Workspace.tlon hub.Frame.Frame.Autofarm header.Champions Arena.UICorner
+G2L["19"] = Instance.new("UICorner", G2L["18"]);
+
+
+
+-- Workspace.tlon hub.Frame.Frame.Autofarm header.Champions Arena.LocalScript
+G2L["1a"] = Instance.new("LocalScript", G2L["18"]);
+
+
+
+-- Workspace.tlon hub.Frame.Frame.Autofarm header.Tharinian Dark Sea
+G2L["1b"] = Instance.new("TextButton", G2L["17"]);
+G2L["1b"]["BorderSizePixel"] = 0;
+G2L["1b"]["TextSize"] = 12;
+G2L["1b"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["1b"]["BackgroundColor3"] = Color3.fromRGB(77, 77, 77);
+G2L["1b"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["1b"]["Size"] = UDim2.new(0, 99, 0, 36);
+G2L["1b"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["1b"]["Text"] = [[Tharinian Darksea (G)]];
+G2L["1b"]["Name"] = [[Tharinian Dark Sea]];
+G2L["1b"]["Position"] = UDim2.new(0.01515, 0, 4.1277, 0);
+
+
+-- Workspace.tlon hub.Frame.Frame.Autofarm header.Tharinian Dark Sea.UICorner
+G2L["1c"] = Instance.new("UICorner", G2L["1b"]);
+
+
+
+-- Workspace.tlon hub.Frame.Frame.Autofarm header.Tharinian Dark Sea.LocalScript
+G2L["1d"] = Instance.new("LocalScript", G2L["1b"]);
+
+
+
+-- Workspace.tlon hub.Frame.nomrial legends title
+G2L["1e"] = Instance.new("ImageLabel", G2L["2"]);
+G2L["1e"]["BorderSizePixel"] = 0;
+G2L["1e"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["1e"]["Image"] = [[rbxassetid://100819167750740]];
+G2L["1e"]["Size"] = UDim2.new(0, 348, 0, 61);
+G2L["1e"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["1e"]["BackgroundTransparency"] = 1;
+G2L["1e"]["Name"] = [[nomrial legends title]];
+G2L["1e"]["Position"] = UDim2.new(-0.06322, 0, -0.07568, 0);
+
+
+-- Workspace.tlon hub.Frame.Close gui
+G2L["1f"] = Instance.new("TextButton", G2L["2"]);
+G2L["1f"]["BorderSizePixel"] = 0;
+G2L["1f"]["TextSize"] = 20;
+G2L["1f"]["TextColor3"] = Color3.fromRGB(255, 0, 0);
+G2L["1f"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["1f"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["1f"]["BackgroundTransparency"] = 1;
+G2L["1f"]["Size"] = UDim2.new(0, 35, 0, 26);
+G2L["1f"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["1f"]["Text"] = [[X]];
+G2L["1f"]["Name"] = [[Close gui]];
+G2L["1f"]["Position"] = UDim2.new(0.91667, 0, 0, 0);
+
+
+-- Workspace.tlon hub.Frame.Close gui.LocalScript
+G2L["20"] = Instance.new("LocalScript", G2L["1f"]);
+
+
+
+-- Workspace.tlon hub.Frame.ImageLabel
+G2L["21"] = Instance.new("ImageLabel", G2L["2"]);
+G2L["21"]["BorderSizePixel"] = 0;
+G2L["21"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["21"]["Image"] = [[rbxassetid://129850451142657]];
+G2L["21"]["Size"] = UDim2.new(0, 354, 0, 71);
+G2L["21"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["21"]["BackgroundTransparency"] = 1;
+G2L["21"]["Position"] = UDim2.new(0, 0, 0.84324, 0);
+
+
+-- Workspace.tlon hub.LocalScript
+G2L["22"] = Instance.new("LocalScript", G2L["1"]);
+
+
+
+-- Workspace.tlon hub.Frame.LocalScript
+local function C_3()
+local script = G2L["3"];
+	script.Parent.Active = true
+	script.Parent.Draggable = true
+end;
+task.spawn(C_3);
+-- Workspace.tlon hub.Frame.Frame.teleports header.Shop Teleports.LocalScript
+local function C_9()
+local script = G2L["9"];
+	-- LocalScript (inside your TextButton)
+	
+	-- Get a reference to the button itself
+	local button = script.Parent
+	
+	-- Connect a function to the MouseButton1Click event (fires when the button is clicked)
+	button.MouseButton1Click:Connect(function()
+		print("Button was clicked! (Client-side message)") 
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/spyhubs/nomriallegends/refs/heads/main/shops?token=GHSAT0AAAAAADURAJCMZDUHLJ7ISOUQD4WS2L7X7RQ'))()
+	
+	end)
+end;
+task.spawn(C_9);
+-- Workspace.tlon hub.Frame.Frame.teleports header.Boss Teleports.LocalScript
+local function C_b()
+local script = G2L["b"];
+	-- LocalScript (inside your TextButton)
+	
+	-- Get a reference to the button itself
+	local button = script.Parent
+	
+	-- Connect a function to the MouseButton1Click event (fires when the button is clicked)
+	button.MouseButton1Click:Connect(function()
+		print("Button was clicked! (Client-side message)") 
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/spyhubs/nomriallegends/refs/heads/main/bosses?token=GHSAT0AAAAAADURAJCMKF3NHQN47ZRMDK5I2L7X32Q'))()
+	
+	end)
+end;
+task.spawn(C_b);
+-- Workspace.tlon hub.Frame.Frame.Player Header.Fly.LocalScript
+local function C_10()
+local script = G2L["10"];
+	-- LocalScript (inside your TextButton)
+	
+	-- Get a reference to the button itself
+	local button = script.Parent
+	
+	-- Connect a function to the MouseButton1Click event (fires when the button is clicked)
+	button.MouseButton1Click:Connect(function()
+		print("Button was clicked! (Client-side message)") 
+		--// Services
+		local Players = game:GetService("Players")
+		local UserInputService = game:GetService("UserInputService")
+		local RunService = game:GetService("RunService")
+	
+		local player = Players.LocalPlayer
+		local character = player.Character or player.CharacterAdded:Wait()
+		local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
+		local humanoid = character:WaitForChild("Humanoid")
+	
+		--// Fly settings
+		local flying = false
+		local speed = 50 -- studs per second
+		local velocity = Vector3.new()
+		local keys = {W = false, A = false, S = false, D = false}
+	
+		--// Toggle fly with "K"
+		UserInputService.InputBegan:Connect(function(input, gameProcessed)
+			if gameProcessed then return end
+			if input.KeyCode == Enum.KeyCode.K then
+				flying = not flying
+				if flying then
+					humanoid.PlatformStand = true -- disables default Roblox physics
+				else
+					humanoid.PlatformStand = false
+				end
+			end
+	
+			-- Track movement keys
+			if input.KeyCode == Enum.KeyCode.W then keys.W = true end
+			if input.KeyCode == Enum.KeyCode.A then keys.A = true end
+			if input.KeyCode == Enum.KeyCode.S then keys.S = true end
+			if input.KeyCode == Enum.KeyCode.D then keys.D = true end
+		end)
+	
+		UserInputService.InputEnded:Connect(function(input, gameProcessed)
+			if input.KeyCode == Enum.KeyCode.W then keys.W = false end
+			if input.KeyCode == Enum.KeyCode.A then keys.A = false end
+			if input.KeyCode == Enum.KeyCode.S then keys.S = false end
+			if input.KeyCode == Enum.KeyCode.D then keys.D = false end
+		end)
+	
+		--// Fly loop
+		RunService.RenderStepped:Connect(function(delta)
+			if flying then
+				local camCFrame = workspace.CurrentCamera.CFrame
+				local moveDir = Vector3.new()
+	
+				if keys.W then moveDir = moveDir + camCFrame.LookVector end
+				if keys.S then moveDir = moveDir - camCFrame.LookVector end
+				if keys.A then moveDir = moveDir - camCFrame.RightVector end
+				if keys.D then moveDir = moveDir + camCFrame.RightVector end
+	
+				if moveDir.Magnitude > 0 then
+					moveDir = moveDir.Unit
+				end
+	
+				velocity = moveDir * speed
+				humanoidRootPart.Velocity = Vector3.new(velocity.X, velocity.Y, velocity.Z)
+			else
+				humanoidRootPart.Velocity = Vector3.new(0, humanoidRootPart.Velocity.Y, 0)
+			end
+		end)
+	
+	end)
+end;
+task.spawn(C_10);
+-- Workspace.tlon hub.Frame.Frame.Player Header.No Clip.LocalScript
+local function C_13()
+local script = G2L["13"];
+	-- LocalScript (inside your TextButton)
+	
+	-- Get a reference to the button itself
+	local button = script.Parent
+	
+	-- Connect a function to the MouseButton1Click event (fires when the button is clicked)
+	button.MouseButton1Click:Connect(function()
+		print("Button was clicked! (Client-side message)") 
+		--// Services
+		local Players = game:GetService("Players")
+		local UserInputService = game:GetService("UserInputService")
+	
+		local player = Players.LocalPlayer
+		local character = player.Character or player.CharacterAdded:Wait()
+		local humanoid = character:WaitForChild("Humanoid")
+	
+		local noclipEnabled = false
+	
+		--// Toggle noclip with "N"
+		UserInputService.InputBegan:Connect(function(input, gameProcessed)
+			if gameProcessed then return end
+			if input.KeyCode == Enum.KeyCode.N then
+				noclipEnabled = not noclipEnabled
+				if noclipEnabled then
+					print("Noclip Enabled")
+				else
+					print("Noclip Disabled")
+				end
+			end
+		end)
+	
+		--// Noclip loop
+		game:GetService("RunService").Stepped:Connect(function()
+			if noclipEnabled then
+				for _, part in ipairs(character:GetChildren()) do
+					if part:IsA("BasePart") then
+						part.CanCollide = false
+					end
+				end
+			else
+				for _, part in ipairs(character:GetChildren()) do
+					if part:IsA("BasePart") then
+						part.CanCollide = true
+					end
+				end
+			end
+		end)
+	
+	end)
+end;
+task.spawn(C_13);
+-- Workspace.tlon hub.Frame.Frame.Player Header.Walkspeed.LocalScript
+local function C_16()
+local script = G2L["16"];
+	-- LocalScript (inside your TextButton)
+	
+	-- Get a reference to the button itself
+	local button = script.Parent
+	
+	-- Connect a function to the MouseButton1Click event (fires when the button is clicked)
+	button.MouseButton1Click:Connect(function()
+		print("Button was clicked! (Client-side message)") 
+		--// Services
+		local Players = game:GetService("Players")
+		local RunService = game:GetService("RunService")
+		local UserInputService = game:GetService("UserInputService")
+	
+		local player = Players.LocalPlayer
+		local character = player.Character or player.CharacterAdded:Wait()
+		local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
+	
+		local walkSpeed = 75
+		local moveKeys = {W=false, A=false, S=false, D=false}
+	
+		--// Track movement keys
+		UserInputService.InputBegan:Connect(function(input, gameProcessed)
+			if gameProcessed then return end
+			if input.KeyCode == Enum.KeyCode.W then moveKeys.W = true end
+			if input.KeyCode == Enum.KeyCode.A then moveKeys.A = true end
+			if input.KeyCode == Enum.KeyCode.S then moveKeys.S = true end
+			if input.KeyCode == Enum.KeyCode.D then moveKeys.D = true end
+		end)
+	
+		UserInputService.InputEnded:Connect(function(input, gameProcessed)
+			if input.KeyCode == Enum.KeyCode.W then moveKeys.W = false end
+			if input.KeyCode == Enum.KeyCode.A then moveKeys.A = false end
+			if input.KeyCode == Enum.KeyCode.S then moveKeys.S = false end
+			if input.KeyCode == Enum.KeyCode.D then moveKeys.D = false end
+		end)
+	
+		--// Force velocity each frame
+		RunService.RenderStepped:Connect(function()
+			local cam = workspace.CurrentCamera
+			local moveDir = Vector3.new()
+	
+			if moveKeys.W then moveDir += cam.CFrame.LookVector end
+			if moveKeys.S then moveDir -= cam.CFrame.LookVector end
+			if moveKeys.A then moveDir -= cam.CFrame.RightVector end
+			if moveKeys.D then moveDir += cam.CFrame.RightVector end
+	
+			if moveDir.Magnitude > 0 then
+				moveDir = moveDir.Unit * walkSpeed
+				humanoidRootPart.Velocity = Vector3.new(moveDir.X, humanoidRootPart.Velocity.Y, moveDir.Z)
+			else
+				humanoidRootPart.Velocity = Vector3.new(0, humanoidRootPart.Velocity.Y, 0)
+			end
+		end)
+	
+	end)
+end;
+task.spawn(C_16);
+-- Workspace.tlon hub.Frame.Frame.Autofarm header.Champions Arena.LocalScript
+local function C_1a()
+local script = G2L["1a"];
+	-- LocalScript (inside your TextButton)
+	
+	-- Get a reference to the button itself
+	local button = script.Parent
+	
+	-- Connect a function to the MouseButton1Click event (fires when the button is clicked)
+	button.MouseButton1Click:Connect(function()
+		print("Button was clicked! (Client-side message)") 
+		-- Stable Client-side Autofarm Script (Frozen Tween + Stand Behind + Auto Attack)
+		local Players = game:GetService("Players")
+		local TweenService = game:GetService("TweenService")
+		local UserInputService = game:GetService("UserInputService")
+	
+		local player = Players.LocalPlayer
+		local character = player.Character or player.CharacterAdded:Wait()
+		local hrp = character:WaitForChild("HumanoidRootPart")
+		local backpack = player:WaitForChild("Backpack")
+	
+		-- Autofarm toggle
+		local autofarmEnabled = false
+		local toggleKey = Enum.KeyCode.F
+	
+		-- Toggle autofarm with F
+		UserInputService.InputBegan:Connect(function(input, gameProcessed)
+			if gameProcessed then return end
+			if input.KeyCode == toggleKey then
+				autofarmEnabled = not autofarmEnabled
+				print("Autofarm toggled:", autofarmEnabled)
+			end
+		end)
+	
+		-- Function to get all valid boss models in ChampionsArena
+		local function getBosses()
+			local arena = workspace:WaitForChild("Game Mobs"):WaitForChild("ChampionsArena")
+			local bosses = {}
+			for _, child in ipairs(arena:GetChildren()) do
+				if child:IsA("Model") then
+					table.insert(bosses, child)
+				end
+			end
+			return bosses
+		end
+	
+		-- Get a valid part inside a model
+		local function getBossPart(model)
+			return model.PrimaryPart or model:FindFirstChild("HumanoidRootPart") or model:FindFirstChildWhichIsA("BasePart")
+		end
+	
+		-- Smoothly teleport behind boss while frozen
+		local function teleportBehindFrozen(bossPart)
+			-- Freeze player
+			hrp.Anchored = true
+	
+			-- Calculate position 2 studs behind boss, looking at boss
+			local offset = -bossPart.CFrame.LookVector * 2
+			local targetCFrame = CFrame.new(bossPart.Position + offset, bossPart.Position)
+	
+			-- Tween to position
+			local tweenInfo = TweenInfo.new(1, Enum.EasingStyle.Linear)
+			local tween = TweenService:Create(hrp, tweenInfo, {CFrame = targetCFrame})
+			tween:Play()
+			tween.Completed:Wait()
+	
+			-- Unfreeze player
+			hrp.Anchored = false
+		end
+	
+		-- Auto attack function
+		local function autoAttack()
+			local tool = character:FindFirstChildWhichIsA("Tool") or backpack:FindFirstChildWhichIsA("Tool")
+			if tool and tool:FindFirstChild("Handle") then
+				if tool.Parent == backpack then
+					tool.Parent = character
+				end
+				tool:Activate()
+			end
+		end
+	
+		-- Autofarm loop
+		spawn(function()
+			while true do
+				if autofarmEnabled then
+					local bosses = getBosses()
+					for _, bossModel in ipairs(bosses) do
+						local bossPart = getBossPart(bossModel)
+						if bossPart then
+							teleportBehindFrozen(bossPart) -- Smooth frozen teleport
+							autoAttack()                   -- Auto attack
+							wait(0.5)                       -- Wait before next boss
+						end
+					end
+				else
+					wait(0.5)
+				end
+				wait(0.1)
+			end
+		end)
+	
+	end)
+end;
+task.spawn(C_1a);
+-- Workspace.tlon hub.Frame.Frame.Autofarm header.Tharinian Dark Sea.LocalScript
+local function C_1d()
+local script = G2L["1d"];
+	-- LocalScript (inside your TextButton)
+	
+	-- Get a reference to the button itself
+	local button = script.Parent
+	
+	-- Connect a function to the MouseButton1Click event (fires when the button is clicked)
+	button.MouseButton1Click:Connect(function()
+		print("Button was clicked! (Client-side message)") 
+		-- Client-side Auto Farm Script
+		-- Auto farm + stand behind mobs + autoclicker + tool attack + proper camera
+		-- Toggle Key: G
+		-- Run in a LocalScript
+	
+		local Players = game:GetService("Players")
+		local RunService = game:GetService("RunService")
+		local TweenService = game:GetService("TweenService")
+		local UserInputService = game:GetService("UserInputService")
+		local LocalPlayer = Players.LocalPlayer
+		local Character = LocalPlayer.Character or LocalPlayer.CharacterAdded:Wait()
+		local HumanoidRootPart = Character:WaitForChild("HumanoidRootPart")
+		local Humanoid = Character:WaitForChild("Humanoid")
+		local Tool = nil
+	
+		-- Settings
+		local attackDistance = 10        -- Distance to start attacking
+		local tweenSpeed = 25            -- Speed for teleport
+		local freezeDuringTween = true
+		local behindDistance = 2         -- Distance behind mob
+		local clickRate = 10             -- Autoclicker speed (clicks per second)
+	
+		-- Toggle
+		local autoFarm = false
+		local toggleKey = Enum.KeyCode.G
+	
+		-- Hardcoded mob list
+		local mobs = {
+			workspace["Game Mobs"].Tharinian2:GetChildren()[5],
+			workspace["Game Mobs"].Tharinian2.Marauder,
+			workspace["Game Mobs"].Tharinian2:GetChildren()[2],
+			workspace["Game Mobs"].Tharinian2:GetChildren()[3],
+			workspace["Game Mobs"].Tharinian2:GetChildren()[4]
+		}
+	
+		-- Freeze/unfreeze player
+		local function setFreeze(state)
+			Humanoid.PlatformStand = state
+		end
+	
+		-- Get position directly behind mob
+		local function getPositionBehindMob(mob)
+			local mobHRP = mob:FindFirstChild("HumanoidRootPart")
+			if not mobHRP then return HumanoidRootPart.Position end
+			local behindPos = mobHRP.Position - (mobHRP.CFrame.LookVector * behindDistance)
+			behindPos = Vector3.new(behindPos.X, HumanoidRootPart.Position.Y, behindPos.Z)
+			return behindPos
+		end
+	
+		-- Tween to target position without changing rotation
+		local function tweenTo(targetPos)
+			if not HumanoidRootPart or not targetPos then return end
+			local distance = (HumanoidRootPart.Position - targetPos).Magnitude
+			local duration = distance / tweenSpeed
+			local currentCFrame = HumanoidRootPart.CFrame
+			local tweenInfo = TweenInfo.new(duration, Enum.EasingStyle.Linear)
+			local tweenGoal = {CFrame = CFrame.new(targetPos) * CFrame.Angles(currentCFrame:ToEulerAnglesXYZ())}
+			local tween = TweenService:Create(HumanoidRootPart, tweenInfo, tweenGoal)
+	
+			if freezeDuringTween then setFreeze(true) end
+			tween:Play()
+			tween.Completed:Wait()
+			if freezeDuringTween then setFreeze(false) end
+		end
+	
+		-- Face the mob
+		local function faceMob(mob)
+			local mobHRP = mob:FindFirstChild("HumanoidRootPart")
+			if mobHRP then
+				HumanoidRootPart.CFrame = CFrame.new(HumanoidRootPart.Position, Vector3.new(mobHRP.Position.X, HumanoidRootPart.Position.Y, mobHRP.Position.Z))
+			end
+		end
+	
+		-- Find tool in character
+		local function findTool()
+			if Tool and Tool.Parent then return Tool end
+			for _, item in pairs(Character:GetChildren()) do
+				if item:IsA("Tool") then
+					Tool = item
+					return Tool
+				end
+			end
+			return nil
+		end
+	
+		-- Autoclicker attack
+		local function autoClickTool(mob)
+			local tool = findTool()
+			if not tool or not mob or not mob:FindFirstChild("Humanoid") then return end
+			if tool:FindFirstChild("Handle") then
+				tool:Activate() -- simulates a click
+			end
+		end
+	
+		-- Toggle keybind
+		UserInputService.InputBegan:Connect(function(input, gameProcessed)
+			if gameProcessed then return end
+			if input.KeyCode == toggleKey then
+				autoFarm = not autoFarm
+				print("Auto Farm toggled:", autoFarm and "ON" or "OFF")
+			end
+		end)
+	
+		-- Main Auto Farm Loop
+		spawn(function()
+			while true do
+				if autoFarm then
+					for _, mob in ipairs(mobs) do
+						if not autoFarm then break end
+						if mob and mob:FindFirstChild("HumanoidRootPart") and mob:FindFirstChild("Humanoid") then
+							local mobHRP = mob.HumanoidRootPart
+							local mobHumanoid = mob.Humanoid
+	
+							-- Move behind mob
+							local targetPos = getPositionBehindMob(mob)
+							tweenTo(targetPos)
+	
+							-- While near mob, face and attack using autoclicker
+							while mobHumanoid and mobHumanoid.Health > 0 and autoFarm and (HumanoidRootPart.Position - mobHRP.Position).Magnitude <= attackDistance + behindDistance do
+								faceMob(mob)
+								autoClickTool(mob)
+								wait(1 / clickRate) -- controls autoclicker speed
+							end
+						end
+					end
+				else
+					wait(0.5)
+				end
+			end
+		end)
+	
+	end)
+end;
+task.spawn(C_1d);
+-- Workspace.tlon hub.Frame.Close gui.LocalScript
+local function C_20()
+local script = G2L["20"];
+	-- Close GUI Button Script
+	local button = script.Parent -- The button this script is inside
+	local gui = button.Parent -- Assumes the button is directly inside the ScreenGui
+	
+	-- Close the GUI when the button is clicked
+	button.MouseButton1Click:Connect(function()
+		gui.Enabled = false
+	end)
+	
+end;
+task.spawn(C_20);
+-- Workspace.tlon hub.LocalScript
+local function C_22()
+local script = G2L["22"];
+	-- Notification Script
+	local Players = game:GetService("Players")
+	local player = Players.LocalPlayer
+	local StarterGui = game:GetService("StarterGui")
+	
+	-- Function to send a notification
+	local function sendNotification(title, text, duration)
+		StarterGui:SetCore("SendNotification", {
+			Title = title or "What Is Skill?",
+			Text = text or "Nomrial Legends hub loaded!",
+			Duration = duration or 5, -- Duration in seconds
+			Button1 = "OK", -- Optional button
+		})
+	end
+	
+	-- Trigger notification when script runs
+	sendNotification("What Is Skill?", "Nomrial Legends hub loaded!", 10)
+	
+end;
+task.spawn(C_22);
+
+return G2L["1"], require;
