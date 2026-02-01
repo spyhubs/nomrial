@@ -799,13 +799,13 @@ task.spawn(C_1d);
 -- Workspace.tlon hub.Frame.Close gui.LocalScript
 local function C_20()
 local script = G2L["20"];
-	-- Close GUI Button Script
-	local button = script.Parent -- The button this script is inside
-	local gui = button.Parent -- Assumes the button is directly inside the ScreenGui
+	local button = script.Parent
+	local gui = button:FindFirstAncestorOfClass("ScreenGui")
 	
-	-- Close the GUI when the button is clicked
 	button.MouseButton1Click:Connect(function()
-		gui.Enabled = false
+		if gui then
+			gui.Enabled = false
+		end
 	end)
 	
 end;
