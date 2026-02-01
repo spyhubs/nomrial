@@ -1,0 +1,1124 @@
+--[=[
+ d888b  db    db d888888b      .d888b.      db      db    db  .d8b.  
+88' Y8b 88    88   `88'        VP  `8D      88      88    88 d8' `8b 
+88      88    88    88            odD'      88      88    88 88ooo88 
+88  ooo 88    88    88          .88'        88      88    88 88~~~88 
+88. ~8~ 88b  d88   .88.        j88.         88booo. 88b  d88 88   88    @uniquadev
+ Y888P  ~Y8888P' Y888888P      888888D      Y88888P ~Y8888P' YP   YP  CONVERTER 
+]=]
+
+-- Instances: 47 | Scripts: 22 | Modules: 0 | Tags: 0
+local G2L = {};
+
+-- Workspace.nomrial bosses gui
+G2L["1"] = Instance.new("ScreenGui", game:GetService("Players").LocalPlayer:WaitForChild("PlayerGui"));
+G2L["1"]["Name"] = [[nomrial bosses gui]];
+G2L["1"]["ZIndexBehavior"] = Enum.ZIndexBehavior.Sibling;
+
+
+-- Workspace.nomrial bosses gui.Frame
+G2L["2"] = Instance.new("Frame", G2L["1"]);
+G2L["2"]["BorderSizePixel"] = 0;
+G2L["2"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["2"]["Size"] = UDim2.new(0, 365, 0, 465);
+G2L["2"]["Position"] = UDim2.new(0.29877, 0, 0.10764, 0);
+G2L["2"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+
+
+-- Workspace.nomrial bosses gui.Frame.LocalScript
+G2L["3"] = Instance.new("LocalScript", G2L["2"]);
+
+
+
+-- Workspace.nomrial bosses gui.Frame.UICorner
+G2L["4"] = Instance.new("UICorner", G2L["2"]);
+
+
+
+-- Workspace.nomrial bosses gui.Frame.ImageLabel
+G2L["5"] = Instance.new("ImageLabel", G2L["2"]);
+G2L["5"]["BorderSizePixel"] = 0;
+G2L["5"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["5"]["Image"] = [[rbxassetid://76236433286062]];
+G2L["5"]["Size"] = UDim2.new(0, 365, 0, 66);
+G2L["5"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["5"]["BackgroundTransparency"] = 1;
+
+
+-- Workspace.nomrial bosses gui.Frame.Aduro
+G2L["6"] = Instance.new("TextButton", G2L["2"]);
+G2L["6"]["BorderSizePixel"] = 0;
+G2L["6"]["TextSize"] = 20;
+G2L["6"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["6"]["BackgroundColor3"] = Color3.fromRGB(117, 117, 117);
+G2L["6"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["6"]["Size"] = UDim2.new(0, 90, 0, 29);
+G2L["6"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["6"]["Text"] = [[Aduro]];
+G2L["6"]["Name"] = [[Aduro]];
+G2L["6"]["Position"] = UDim2.new(0.06849, 0, 0.21449, 0);
+
+
+-- Workspace.nomrial bosses gui.Frame.Aduro.LocalScript
+G2L["7"] = Instance.new("LocalScript", G2L["6"]);
+
+
+
+-- Workspace.nomrial bosses gui.Frame.Commander Alvericus
+G2L["8"] = Instance.new("TextButton", G2L["2"]);
+G2L["8"]["BorderSizePixel"] = 0;
+G2L["8"]["TextSize"] = 20;
+G2L["8"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["8"]["BackgroundColor3"] = Color3.fromRGB(117, 117, 117);
+G2L["8"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["8"]["Size"] = UDim2.new(0, 90, 0, 29);
+G2L["8"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["8"]["Text"] = [[ Alvericus]];
+G2L["8"]["Name"] = [[Commander Alvericus]];
+G2L["8"]["Position"] = UDim2.new(0.37534, 0, 0.21449, 0);
+
+
+-- Workspace.nomrial bosses gui.Frame.Commander Alvericus.LocalScript
+G2L["9"] = Instance.new("LocalScript", G2L["8"]);
+
+
+
+-- Workspace.nomrial bosses gui.Frame.Dominus Flamma
+G2L["a"] = Instance.new("TextButton", G2L["2"]);
+G2L["a"]["BorderSizePixel"] = 0;
+G2L["a"]["TextSize"] = 14;
+G2L["a"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["a"]["BackgroundColor3"] = Color3.fromRGB(117, 117, 117);
+G2L["a"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["a"]["Size"] = UDim2.new(0, 90, 0, 29);
+G2L["a"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["a"]["Text"] = [[Dominus Flamma]];
+G2L["a"]["Name"] = [[Dominus Flamma]];
+G2L["a"]["Position"] = UDim2.new(0.67945, 0, 0.21449, 0);
+
+
+-- Workspace.nomrial bosses gui.Frame.Dominus Flamma.LocalScript
+G2L["b"] = Instance.new("LocalScript", G2L["a"]);
+
+
+
+-- Workspace.nomrial bosses gui.Frame.Dominus Fulmen
+G2L["c"] = Instance.new("TextButton", G2L["2"]);
+G2L["c"]["BorderSizePixel"] = 0;
+G2L["c"]["TextSize"] = 14;
+G2L["c"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["c"]["BackgroundColor3"] = Color3.fromRGB(117, 117, 117);
+G2L["c"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["c"]["Size"] = UDim2.new(0, 90, 0, 29);
+G2L["c"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["c"]["Text"] = [[Dominus Fulmen]];
+G2L["c"]["Name"] = [[Dominus Fulmen]];
+G2L["c"]["Position"] = UDim2.new(0.06849, 0, 0.32464, 0);
+
+
+-- Workspace.nomrial bosses gui.Frame.Dominus Fulmen.LocalScript
+G2L["d"] = Instance.new("LocalScript", G2L["c"]);
+
+
+
+-- Workspace.nomrial bosses gui.Frame.Dominus Invictus
+G2L["e"] = Instance.new("TextButton", G2L["2"]);
+G2L["e"]["BorderSizePixel"] = 0;
+G2L["e"]["TextSize"] = 14;
+G2L["e"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["e"]["BackgroundColor3"] = Color3.fromRGB(117, 117, 117);
+G2L["e"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["e"]["Size"] = UDim2.new(0, 90, 0, 29);
+G2L["e"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["e"]["Text"] = [[Dominus Invictus]];
+G2L["e"]["Name"] = [[Dominus Invictus]];
+G2L["e"]["Position"] = UDim2.new(0.37534, 0, 0.32464, 0);
+
+
+-- Workspace.nomrial bosses gui.Frame.Dominus Invictus.LocalScript
+G2L["f"] = Instance.new("LocalScript", G2L["e"]);
+
+
+
+-- Workspace.nomrial bosses gui.Frame.Dominus Ultimus
+G2L["10"] = Instance.new("TextButton", G2L["2"]);
+G2L["10"]["BorderSizePixel"] = 0;
+G2L["10"]["TextSize"] = 14;
+G2L["10"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["10"]["BackgroundColor3"] = Color3.fromRGB(117, 117, 117);
+G2L["10"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["10"]["Size"] = UDim2.new(0, 90, 0, 29);
+G2L["10"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["10"]["Text"] = [[Dominus Ultimus]];
+G2L["10"]["Name"] = [[Dominus Ultimus]];
+G2L["10"]["Position"] = UDim2.new(0.67945, 0, 0.32464, 0);
+
+
+-- Workspace.nomrial bosses gui.Frame.Dominus Ultimus.LocalScript
+G2L["11"] = Instance.new("LocalScript", G2L["10"]);
+
+
+
+-- Workspace.nomrial bosses gui.Frame.Ermugath
+G2L["12"] = Instance.new("TextButton", G2L["2"]);
+G2L["12"]["BorderSizePixel"] = 0;
+G2L["12"]["TextSize"] = 14;
+G2L["12"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["12"]["BackgroundColor3"] = Color3.fromRGB(117, 117, 117);
+G2L["12"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["12"]["Size"] = UDim2.new(0, 90, 0, 29);
+G2L["12"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["12"]["Text"] = [[Ermugath]];
+G2L["12"]["Name"] = [[Ermugath]];
+G2L["12"]["Position"] = UDim2.new(0.06849, 0, 0.43768, 0);
+
+
+-- Workspace.nomrial bosses gui.Frame.Ermugath.LocalScript
+G2L["13"] = Instance.new("LocalScript", G2L["12"]);
+
+
+
+-- Workspace.nomrial bosses gui.Frame.Goldbeard the Great
+G2L["14"] = Instance.new("TextButton", G2L["2"]);
+G2L["14"]["TextWrapped"] = true;
+G2L["14"]["BorderSizePixel"] = 0;
+G2L["14"]["TextSize"] = 20;
+G2L["14"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["14"]["BackgroundColor3"] = Color3.fromRGB(117, 117, 117);
+G2L["14"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["14"]["Size"] = UDim2.new(0, 90, 0, 29);
+G2L["14"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["14"]["Text"] = [[Goldbeard ]];
+G2L["14"]["Name"] = [[Goldbeard the Great]];
+G2L["14"]["Position"] = UDim2.new(0.37534, 0, 0.43768, 0);
+
+
+-- Workspace.nomrial bosses gui.Frame.Goldbeard the Great.LocalScript
+G2L["15"] = Instance.new("LocalScript", G2L["14"]);
+
+
+
+-- Workspace.nomrial bosses gui.Frame.Ikrelath
+G2L["16"] = Instance.new("TextButton", G2L["2"]);
+G2L["16"]["TextWrapped"] = true;
+G2L["16"]["BorderSizePixel"] = 0;
+G2L["16"]["TextSize"] = 20;
+G2L["16"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["16"]["BackgroundColor3"] = Color3.fromRGB(117, 117, 117);
+G2L["16"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["16"]["Size"] = UDim2.new(0, 90, 0, 29);
+G2L["16"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["16"]["Text"] = [[Ikrelath]];
+G2L["16"]["Name"] = [[Ikrelath]];
+G2L["16"]["Position"] = UDim2.new(0.67945, 0, 0.43768, 0);
+
+
+-- Workspace.nomrial bosses gui.Frame.Ikrelath.LocalScript
+G2L["17"] = Instance.new("LocalScript", G2L["16"]);
+
+
+
+-- Workspace.nomrial bosses gui.Frame.Lord Velocaghus
+G2L["18"] = Instance.new("TextButton", G2L["2"]);
+G2L["18"]["TextWrapped"] = true;
+G2L["18"]["BorderSizePixel"] = 0;
+G2L["18"]["TextSize"] = 14;
+G2L["18"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["18"]["BackgroundColor3"] = Color3.fromRGB(117, 117, 117);
+G2L["18"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["18"]["Size"] = UDim2.new(0, 90, 0, 29);
+G2L["18"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["18"]["Text"] = [[Lord Velocaghus]];
+G2L["18"]["Name"] = [[Lord Velocaghus]];
+G2L["18"]["Position"] = UDim2.new(0.06849, 0, 0.55362, 0);
+
+
+-- Workspace.nomrial bosses gui.Frame.Lord Velocaghus.LocalScript
+G2L["19"] = Instance.new("LocalScript", G2L["18"]);
+
+
+
+-- Workspace.nomrial bosses gui.Frame.Mummy King
+G2L["1a"] = Instance.new("TextButton", G2L["2"]);
+G2L["1a"]["TextWrapped"] = true;
+G2L["1a"]["BorderSizePixel"] = 0;
+G2L["1a"]["TextSize"] = 14;
+G2L["1a"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["1a"]["BackgroundColor3"] = Color3.fromRGB(117, 117, 117);
+G2L["1a"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["1a"]["Size"] = UDim2.new(0, 90, 0, 29);
+G2L["1a"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["1a"]["Text"] = [[Mummy King]];
+G2L["1a"]["Name"] = [[Mummy King]];
+G2L["1a"]["Position"] = UDim2.new(0.37534, 0, 0.55362, 0);
+
+
+-- Workspace.nomrial bosses gui.Frame.Mummy King.LocalScript
+G2L["1b"] = Instance.new("LocalScript", G2L["1a"]);
+
+
+
+-- Workspace.nomrial bosses gui.Frame.Nodragizu
+G2L["1c"] = Instance.new("TextButton", G2L["2"]);
+G2L["1c"]["TextWrapped"] = true;
+G2L["1c"]["BorderSizePixel"] = 0;
+G2L["1c"]["TextSize"] = 20;
+G2L["1c"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["1c"]["BackgroundColor3"] = Color3.fromRGB(117, 117, 117);
+G2L["1c"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["1c"]["Size"] = UDim2.new(0, 90, 0, 29);
+G2L["1c"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["1c"]["Text"] = [[Nodragizu]];
+G2L["1c"]["Name"] = [[Nodragizu]];
+G2L["1c"]["Position"] = UDim2.new(0.67945, 0, 0.55362, 0);
+
+
+-- Workspace.nomrial bosses gui.Frame.Nodragizu.LocalScript
+G2L["1d"] = Instance.new("LocalScript", G2L["1c"]);
+
+
+
+-- Workspace.nomrial bosses gui.Frame.Super Sentinel
+G2L["1e"] = Instance.new("TextButton", G2L["2"]);
+G2L["1e"]["TextWrapped"] = true;
+G2L["1e"]["BorderSizePixel"] = 0;
+G2L["1e"]["TextSize"] = 14;
+G2L["1e"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["1e"]["BackgroundColor3"] = Color3.fromRGB(117, 117, 117);
+G2L["1e"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["1e"]["Size"] = UDim2.new(0, 90, 0, 29);
+G2L["1e"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["1e"]["Text"] = [[Super Sentinel]];
+G2L["1e"]["Name"] = [[Super Sentinel]];
+G2L["1e"]["Position"] = UDim2.new(0.06849, 0, 0.66957, 0);
+
+
+-- Workspace.nomrial bosses gui.Frame.Super Sentinel.LocalScript
+G2L["1f"] = Instance.new("LocalScript", G2L["1e"]);
+
+
+
+-- Workspace.nomrial bosses gui.Frame.Thalis the Ancient
+G2L["20"] = Instance.new("TextButton", G2L["2"]);
+G2L["20"]["TextWrapped"] = true;
+G2L["20"]["BorderSizePixel"] = 0;
+G2L["20"]["TextSize"] = 14;
+G2L["20"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["20"]["BackgroundColor3"] = Color3.fromRGB(117, 117, 117);
+G2L["20"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["20"]["Size"] = UDim2.new(0, 90, 0, 29);
+G2L["20"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["20"]["Text"] = [[Thalis the Ancient]];
+G2L["20"]["Name"] = [[Thalis the Ancient]];
+G2L["20"]["Position"] = UDim2.new(0.37534, 0, 0.66957, 0);
+
+
+-- Workspace.nomrial bosses gui.Frame.Thalis the Ancient.LocalScript
+G2L["21"] = Instance.new("LocalScript", G2L["20"]);
+
+
+
+-- Workspace.nomrial bosses gui.Frame.Thalis the Ferocious
+G2L["22"] = Instance.new("TextButton", G2L["2"]);
+G2L["22"]["TextWrapped"] = true;
+G2L["22"]["BorderSizePixel"] = 0;
+G2L["22"]["TextSize"] = 14;
+G2L["22"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["22"]["BackgroundColor3"] = Color3.fromRGB(117, 117, 117);
+G2L["22"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["22"]["Size"] = UDim2.new(0, 90, 0, 29);
+G2L["22"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["22"]["Text"] = [[Thalis the Ferocious]];
+G2L["22"]["Name"] = [[Thalis the Ferocious]];
+G2L["22"]["Position"] = UDim2.new(0.67945, 0, 0.66957, 0);
+
+
+-- Workspace.nomrial bosses gui.Frame.Thalis the Ferocious.LocalScript
+G2L["23"] = Instance.new("LocalScript", G2L["22"]);
+
+
+
+-- Workspace.nomrial bosses gui.Frame.The Goldhunter
+G2L["24"] = Instance.new("TextButton", G2L["2"]);
+G2L["24"]["TextWrapped"] = true;
+G2L["24"]["BorderSizePixel"] = 0;
+G2L["24"]["TextSize"] = 14;
+G2L["24"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["24"]["BackgroundColor3"] = Color3.fromRGB(117, 117, 117);
+G2L["24"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["24"]["Size"] = UDim2.new(0, 90, 0, 29);
+G2L["24"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["24"]["Text"] = [[The Goldhunter]];
+G2L["24"]["Name"] = [[The Goldhunter]];
+G2L["24"]["Position"] = UDim2.new(0.06849, 0, 0.78551, 0);
+
+
+-- Workspace.nomrial bosses gui.Frame.The Goldhunter.LocalScript
+G2L["25"] = Instance.new("LocalScript", G2L["24"]);
+
+
+
+-- Workspace.nomrial bosses gui.Frame.Ukaroz, Warrior of Eternity
+G2L["26"] = Instance.new("TextButton", G2L["2"]);
+G2L["26"]["TextWrapped"] = true;
+G2L["26"]["BorderSizePixel"] = 0;
+G2L["26"]["TextSize"] = 14;
+G2L["26"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["26"]["BackgroundColor3"] = Color3.fromRGB(117, 117, 117);
+G2L["26"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["26"]["Size"] = UDim2.new(0, 90, 0, 29);
+G2L["26"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["26"]["Text"] = [[Ukaroz, Warrior of Eternity]];
+G2L["26"]["Name"] = [[Ukaroz, Warrior of Eternity]];
+G2L["26"]["Position"] = UDim2.new(0.37534, 0, 0.78551, 0);
+
+
+-- Workspace.nomrial bosses gui.Frame.Ukaroz, Warrior of Eternity.LocalScript
+G2L["27"] = Instance.new("LocalScript", G2L["26"]);
+
+
+
+-- Workspace.nomrial bosses gui.Frame.Vitreus Ultimus
+G2L["28"] = Instance.new("TextButton", G2L["2"]);
+G2L["28"]["TextWrapped"] = true;
+G2L["28"]["BorderSizePixel"] = 0;
+G2L["28"]["TextSize"] = 14;
+G2L["28"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["28"]["BackgroundColor3"] = Color3.fromRGB(117, 117, 117);
+G2L["28"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["28"]["Size"] = UDim2.new(0, 90, 0, 29);
+G2L["28"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["28"]["Text"] = [[Vitreus Ultimus]];
+G2L["28"]["Name"] = [[Vitreus Ultimus]];
+G2L["28"]["Position"] = UDim2.new(0.67945, 0, 0.78551, 0);
+
+
+-- Workspace.nomrial bosses gui.Frame.Vitreus Ultimus.LocalScript
+G2L["29"] = Instance.new("LocalScript", G2L["28"]);
+
+
+
+-- Workspace.nomrial bosses gui.Frame.Xar-Tul
+G2L["2a"] = Instance.new("TextButton", G2L["2"]);
+G2L["2a"]["TextWrapped"] = true;
+G2L["2a"]["BorderSizePixel"] = 0;
+G2L["2a"]["TextSize"] = 20;
+G2L["2a"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["2a"]["BackgroundColor3"] = Color3.fromRGB(117, 117, 117);
+G2L["2a"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["2a"]["Size"] = UDim2.new(0, 90, 0, 29);
+G2L["2a"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["2a"]["Text"] = [[Xar-Tul]];
+G2L["2a"]["Name"] = [[Xar-Tul]];
+G2L["2a"]["Position"] = UDim2.new(0.06849, 0, 0.89518, 0);
+
+
+-- Workspace.nomrial bosses gui.Frame.Xar-Tul.LocalScript
+G2L["2b"] = Instance.new("LocalScript", G2L["2a"]);
+
+
+
+-- Workspace.nomrial bosses gui.Frame.Yaxocieus Spirit
+G2L["2c"] = Instance.new("TextButton", G2L["2"]);
+G2L["2c"]["TextWrapped"] = true;
+G2L["2c"]["BorderSizePixel"] = 0;
+G2L["2c"]["TextSize"] = 20;
+G2L["2c"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["2c"]["BackgroundColor3"] = Color3.fromRGB(117, 117, 117);
+G2L["2c"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["2c"]["Size"] = UDim2.new(0, 90, 0, 29);
+G2L["2c"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["2c"]["Text"] = [[Yaxocieus Spirit]];
+G2L["2c"]["Name"] = [[Yaxocieus Spirit]];
+G2L["2c"]["Position"] = UDim2.new(0.37808, 0, 0.89518, 0);
+
+
+-- Workspace.nomrial bosses gui.Frame.Yaxocieus Spirit.LocalScript
+G2L["2d"] = Instance.new("LocalScript", G2L["2c"]);
+
+
+
+-- Workspace.nomrial bosses gui.Frame.CLOSE
+G2L["2e"] = Instance.new("TextButton", G2L["2"]);
+G2L["2e"]["TextWrapped"] = true;
+G2L["2e"]["BorderSizePixel"] = 0;
+G2L["2e"]["TextSize"] = 20;
+G2L["2e"]["TextColor3"] = Color3.fromRGB(255, 0, 0);
+G2L["2e"]["BackgroundColor3"] = Color3.fromRGB(117, 117, 117);
+G2L["2e"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["2e"]["BackgroundTransparency"] = 1;
+G2L["2e"]["Size"] = UDim2.new(0, 90, 0, 29);
+G2L["2e"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["2e"]["Text"] = [[CLOSE]];
+G2L["2e"]["Name"] = [[CLOSE]];
+G2L["2e"]["Position"] = UDim2.new(0.67945, 0, 0.89518, 0);
+
+
+-- Workspace.nomrial bosses gui.Frame.CLOSE.LocalScript
+G2L["2f"] = Instance.new("LocalScript", G2L["2e"]);
+
+
+
+-- Workspace.nomrial bosses gui.Frame.LocalScript
+local function C_3()
+local script = G2L["3"];
+	script.Parent.Active = true
+	script.Parent.Draggable = true
+end;
+task.spawn(C_3);
+-- Workspace.nomrial bosses gui.Frame.Aduro.LocalScript
+local function C_7()
+local script = G2L["7"];
+	-- LocalScript (inside your TextButton)
+	
+	-- Get a reference to the button itself
+	local button = script.Parent
+	
+	-- Connect a function to the MouseButton1Click event (fires when the button is clicked)
+	button.MouseButton1Click:Connect(function()
+		print("Button was clicked! (Client-side message)") 
+		-- Client-side teleport script to Aduro boss
+		local player = game.Players.LocalPlayer
+		local character = player.Character or player.CharacterAdded:Wait()
+		local hrp = character:WaitForChild("HumanoidRootPart") -- Player's HumanoidRootPart
+	
+		-- Target boss model
+		local bossModel = workspace:WaitForChild("Game Bosses"):WaitForChild("Aduro")
+	
+		-- Find a valid part to teleport to
+		local targetPart = bossModel.PrimaryPart or bossModel:FindFirstChild("HumanoidRootPart") or bossModel:FindFirstChildWhichIsA("BasePart")
+	
+		-- Teleport
+		if targetPart then
+			hrp.CFrame = targetPart.CFrame + Vector3.new(0, 5, 0) -- Teleport 5 studs above
+		else
+			warn("No valid part found in Aduro model!")
+		end
+	
+	end)
+end;
+task.spawn(C_7);
+-- Workspace.nomrial bosses gui.Frame.Commander Alvericus.LocalScript
+local function C_9()
+local script = G2L["9"];
+	-- LocalScript (inside your TextButton)
+	
+	-- Get a reference to the button itself
+	local button = script.Parent
+	
+	-- Connect a function to the MouseButton1Click event (fires when the button is clicked)
+	button.MouseButton1Click:Connect(function()
+		print("Button was clicked! (Client-side message)") 
+		-- Client-side teleport script to Commander Alvericus
+		local player = game.Players.LocalPlayer
+		local character = player.Character or player.CharacterAdded:Wait()
+		local hrp = character:WaitForChild("HumanoidRootPart") -- Player's HumanoidRootPart
+	
+		-- Target boss model
+		local bossModel = workspace:WaitForChild("Game Bosses"):WaitForChild("Commander Alvericus")
+	
+		-- Find a valid part to teleport to
+		local targetPart = bossModel.PrimaryPart or bossModel:FindFirstChild("HumanoidRootPart") or bossModel:FindFirstChildWhichIsA("BasePart")
+	
+		-- Teleport
+		if targetPart then
+			hrp.CFrame = targetPart.CFrame + Vector3.new(0, 5, 0) -- Teleport 5 studs above
+		else
+			warn("No valid part found in Commander Alvericus model!")
+		end
+	
+	end)
+end;
+task.spawn(C_9);
+-- Workspace.nomrial bosses gui.Frame.Dominus Flamma.LocalScript
+local function C_b()
+local script = G2L["b"];
+	-- LocalScript (inside your TextButton)
+	
+	-- Get a reference to the button itself
+	local button = script.Parent
+	
+	-- Connect a function to the MouseButton1Click event (fires when the button is clicked)
+	button.MouseButton1Click:Connect(function()
+		print("Button was clicked! (Client-side message)") 
+		-- Client-side teleport script to Dominus Flamma
+		local player = game.Players.LocalPlayer
+		local character = player.Character or player.CharacterAdded:Wait()
+		local hrp = character:WaitForChild("HumanoidRootPart") -- Player's HumanoidRootPart
+	
+		-- Target boss model
+		local bossModel = workspace:WaitForChild("Game Bosses"):WaitForChild("Dominus Flamma")
+	
+		-- Find a valid part to teleport to
+		local targetPart = bossModel.PrimaryPart or bossModel:FindFirstChild("HumanoidRootPart") or bossModel:FindFirstChildWhichIsA("BasePart")
+	
+		-- Teleport
+		if targetPart then
+			hrp.CFrame = targetPart.CFrame + Vector3.new(0, 5, 0) -- Teleport 5 studs above
+		else
+			warn("No valid part found in Dominus Flamma model!")
+		end
+	
+	end)
+end;
+task.spawn(C_b);
+-- Workspace.nomrial bosses gui.Frame.Dominus Fulmen.LocalScript
+local function C_d()
+local script = G2L["d"];
+	-- LocalScript (inside your TextButton)
+	
+	-- Get a reference to the button itself
+	local button = script.Parent
+	
+	-- Connect a function to the MouseButton1Click event (fires when the button is clicked)
+	button.MouseButton1Click:Connect(function()
+		print("Button was clicked! (Client-side message)") 
+		-- Client-side teleport script to Dominus Fulmen
+		local player = game.Players.LocalPlayer
+		local character = player.Character or player.CharacterAdded:Wait()
+		local hrp = character:WaitForChild("HumanoidRootPart") -- Player's HumanoidRootPart
+	
+		-- Target boss model
+		local bossModel = workspace:WaitForChild("Game Bosses"):WaitForChild("Dominus Fulmen")
+	
+		-- Find a valid part to teleport to
+		local targetPart = bossModel.PrimaryPart or bossModel:FindFirstChild("HumanoidRootPart") or bossModel:FindFirstChildWhichIsA("BasePart")
+	
+		-- Teleport
+		if targetPart then
+			hrp.CFrame = targetPart.CFrame + Vector3.new(0, 5, 0) -- Teleport 5 studs above
+		else
+			warn("No valid part found in Dominus Fulmen model!")
+		end
+	
+	end)
+end;
+task.spawn(C_d);
+-- Workspace.nomrial bosses gui.Frame.Dominus Invictus.LocalScript
+local function C_f()
+local script = G2L["f"];
+	-- LocalScript (inside your TextButton)
+	
+	-- Get a reference to the button itself
+	local button = script.Parent
+	
+	-- Connect a function to the MouseButton1Click event (fires when the button is clicked)
+	button.MouseButton1Click:Connect(function()
+		print("Button was clicked! (Client-side message)") 
+		-- Client-side teleport script to Dominus Invictus
+		local player = game.Players.LocalPlayer
+		local character = player.Character or player.CharacterAdded:Wait()
+		local hrp = character:WaitForChild("HumanoidRootPart") -- Player's HumanoidRootPart
+	
+		-- Target boss model
+		local bossModel = workspace:WaitForChild("Game Bosses"):WaitForChild("Dominus Invictus")
+	
+		-- Find a valid part to teleport to
+		local targetPart = bossModel.PrimaryPart or bossModel:FindFirstChild("HumanoidRootPart") or bossModel:FindFirstChildWhichIsA("BasePart")
+	
+		-- Teleport
+		if targetPart then
+			hrp.CFrame = targetPart.CFrame + Vector3.new(0, 5, 0) -- Teleport 5 studs above
+		else
+			warn("No valid part found in Dominus Invictus model!")
+		end
+	
+	end)
+end;
+task.spawn(C_f);
+-- Workspace.nomrial bosses gui.Frame.Dominus Ultimus.LocalScript
+local function C_11()
+local script = G2L["11"];
+	-- LocalScript (inside your TextButton)
+	
+	-- Get a reference to the button itself
+	local button = script.Parent
+	
+	-- Connect a function to the MouseButton1Click event (fires when the button is clicked)
+	button.MouseButton1Click:Connect(function()
+		print("Button was clicked! (Client-side message)") 
+		-- Client-side teleport script to Dominus Ultimus
+		local player = game.Players.LocalPlayer
+		local character = player.Character or player.CharacterAdded:Wait()
+		local hrp = character:WaitForChild("HumanoidRootPart") -- Player's HumanoidRootPart
+	
+		-- Target boss model
+		local bossModel = workspace:WaitForChild("Game Bosses"):WaitForChild("Dominus Ultimus")
+	
+		-- Find a valid part to teleport to
+		local targetPart = bossModel.PrimaryPart or bossModel:FindFirstChild("HumanoidRootPart") or bossModel:FindFirstChildWhichIsA("BasePart")
+	
+		-- Teleport
+		if targetPart then
+			hrp.CFrame = targetPart.CFrame + Vector3.new(0, 5, 0) -- Teleport 5 studs above
+		else
+			warn("No valid part found in Dominus Ultimus model!")
+		end
+	
+	end)
+end;
+task.spawn(C_11);
+-- Workspace.nomrial bosses gui.Frame.Ermugath.LocalScript
+local function C_13()
+local script = G2L["13"];
+	-- LocalScript (inside your TextButton)
+	
+	-- Get a reference to the button itself
+	local button = script.Parent
+	
+	-- Connect a function to the MouseButton1Click event (fires when the button is clicked)
+	button.MouseButton1Click:Connect(function()
+		print("Button was clicked! (Client-side message)") 
+		-- Client-side teleport script to Ermugath
+		local player = game.Players.LocalPlayer
+		local character = player.Character or player.CharacterAdded:Wait()
+		local hrp = character:WaitForChild("HumanoidRootPart") -- Player's HumanoidRootPart
+	
+		-- Target boss model
+		local bossModel = workspace:WaitForChild("Game Bosses"):WaitForChild("Ermugath")
+	
+		-- Find a valid part to teleport to
+		local targetPart = bossModel.PrimaryPart or bossModel:FindFirstChild("HumanoidRootPart") or bossModel:FindFirstChildWhichIsA("BasePart")
+	
+		-- Teleport
+		if targetPart then
+			hrp.CFrame = targetPart.CFrame + Vector3.new(0, 5, 0) -- Teleport 5 studs above
+		else
+			warn("No valid part found in Ermugath model!")
+		end
+	
+	end)
+end;
+task.spawn(C_13);
+-- Workspace.nomrial bosses gui.Frame.Goldbeard the Great.LocalScript
+local function C_15()
+local script = G2L["15"];
+	-- LocalScript (inside your TextButton)
+	
+	-- Get a reference to the button itself
+	local button = script.Parent
+	
+	-- Connect a function to the MouseButton1Click event (fires when the button is clicked)
+	button.MouseButton1Click:Connect(function()
+		print("Button was clicked! (Client-side message)") 
+		-- Client-side teleport script to Goldbeard the Great
+		local player = game.Players.LocalPlayer
+		local character = player.Character or player.CharacterAdded:Wait()
+		local hrp = character:WaitForChild("HumanoidRootPart") -- Player's HumanoidRootPart
+	
+		-- Target boss model
+		local bossModel = workspace:WaitForChild("Game Bosses"):WaitForChild("Goldbeard the Great")
+	
+		-- Find a valid part to teleport to
+		local targetPart = bossModel.PrimaryPart or bossModel:FindFirstChild("HumanoidRootPart") or bossModel:FindFirstChildWhichIsA("BasePart")
+	
+		-- Teleport
+		if targetPart then
+			hrp.CFrame = targetPart.CFrame + Vector3.new(0, 5, 0) -- Teleport 5 studs above
+		else
+			warn("No valid part found in Goldbeard the Great model!")
+		end
+	
+	end)
+end;
+task.spawn(C_15);
+-- Workspace.nomrial bosses gui.Frame.Ikrelath.LocalScript
+local function C_17()
+local script = G2L["17"];
+	-- LocalScript (inside your TextButton)
+	
+	-- Get a reference to the button itself
+	local button = script.Parent
+	
+	-- Connect a function to the MouseButton1Click event (fires when the button is clicked)
+	button.MouseButton1Click:Connect(function()
+		print("Button was clicked! (Client-side message)") 
+		-- Client-side teleport script to Ikrelath
+		local player = game.Players.LocalPlayer
+		local character = player.Character or player.CharacterAdded:Wait()
+		local hrp = character:WaitForChild("HumanoidRootPart") -- Player's HumanoidRootPart
+	
+		-- Target boss model
+		local bossModel = workspace:WaitForChild("Game Bosses"):WaitForChild("Ikrelath")
+	
+		-- Find a valid part to teleport to
+		local targetPart = bossModel.PrimaryPart or bossModel:FindFirstChild("HumanoidRootPart") or bossModel:FindFirstChildWhichIsA("BasePart")
+	
+		-- Teleport
+		if targetPart then
+			hrp.CFrame = targetPart.CFrame + Vector3.new(0, 5, 0) -- Teleport 5 studs above
+		else
+			warn("No valid part found in Ikrelath model!")
+		end
+	
+	end)
+end;
+task.spawn(C_17);
+-- Workspace.nomrial bosses gui.Frame.Lord Velocaghus.LocalScript
+local function C_19()
+local script = G2L["19"];
+	-- LocalScript (inside your TextButton)
+	
+	-- Get a reference to the button itself
+	local button = script.Parent
+	
+	-- Connect a function to the MouseButton1Click event (fires when the button is clicked)
+	button.MouseButton1Click:Connect(function()
+		print("Button was clicked! (Client-side message)") 
+		-- Client-side teleport script to Lord Velocaghus
+		local player = game.Players.LocalPlayer
+		local character = player.Character or player.CharacterAdded:Wait()
+		local hrp = character:WaitForChild("HumanoidRootPart") -- Player's HumanoidRootPart
+	
+		-- Target boss model
+		local bossModel = workspace:WaitForChild("Game Bosses"):WaitForChild("Lord Velocaghus")
+	
+		-- Find a valid part to teleport to
+		local targetPart = bossModel.PrimaryPart or bossModel:FindFirstChild("HumanoidRootPart") or bossModel:FindFirstChildWhichIsA("BasePart")
+	
+		-- Teleport
+		if targetPart then
+			hrp.CFrame = targetPart.CFrame + Vector3.new(0, 5, 0) -- Teleport 5 studs above
+		else
+			warn("No valid part found in Lord Velocaghus model!")
+		end
+	
+	end)
+end;
+task.spawn(C_19);
+-- Workspace.nomrial bosses gui.Frame.Mummy King.LocalScript
+local function C_1b()
+local script = G2L["1b"];
+	-- LocalScript (inside your TextButton)
+	
+	-- Get a reference to the button itself
+	local button = script.Parent
+	
+	-- Connect a function to the MouseButton1Click event (fires when the button is clicked)
+	button.MouseButton1Click:Connect(function()
+		print("Button was clicked! (Client-side message)") 
+		-- Client-side teleport script to Mummy King
+		local player = game.Players.LocalPlayer
+		local character = player.Character or player.CharacterAdded:Wait()
+		local hrp = character:WaitForChild("HumanoidRootPart") -- Player's HumanoidRootPart
+	
+		-- Target boss model
+		local bossModel = workspace:WaitForChild("Game Bosses"):WaitForChild("Mummy King")
+	
+		-- Find a valid part to teleport to
+		local targetPart = bossModel.PrimaryPart or bossModel:FindFirstChild("HumanoidRootPart") or bossModel:FindFirstChildWhichIsA("BasePart")
+	
+		-- Teleport
+		if targetPart then
+			hrp.CFrame = targetPart.CFrame + Vector3.new(0, 5, 0) -- Teleport 5 studs above
+		else
+			warn("No valid part found in Mummy King model!")
+		end
+	
+	end)
+end;
+task.spawn(C_1b);
+-- Workspace.nomrial bosses gui.Frame.Nodragizu.LocalScript
+local function C_1d()
+local script = G2L["1d"];
+	-- LocalScript (inside your TextButton)
+	
+	-- Get a reference to the button itself
+	local button = script.Parent
+	
+	-- Connect a function to the MouseButton1Click event (fires when the button is clicked)
+	button.MouseButton1Click:Connect(function()
+		print("Button was clicked! (Client-side message)") 
+		-- Client-side teleport script to Nodragizu
+		local player = game.Players.LocalPlayer
+		local character = player.Character or player.CharacterAdded:Wait()
+		local hrp = character:WaitForChild("HumanoidRootPart") -- Player's HumanoidRootPart
+	
+		-- Target boss model
+		local bossModel = workspace:WaitForChild("Game Bosses"):WaitForChild("Nodragizu")
+	
+		-- Find a valid part to teleport to
+		local targetPart = bossModel.PrimaryPart or bossModel:FindFirstChild("HumanoidRootPart") or bossModel:FindFirstChildWhichIsA("BasePart")
+	
+		-- Teleport
+		if targetPart then
+			hrp.CFrame = targetPart.CFrame + Vector3.new(0, 5, 0) -- Teleport 5 studs above
+		else
+			warn("No valid part found in Nodragizu model!")
+		end
+	
+	end)
+end;
+task.spawn(C_1d);
+-- Workspace.nomrial bosses gui.Frame.Super Sentinel.LocalScript
+local function C_1f()
+local script = G2L["1f"];
+	-- LocalScript (inside your TextButton)
+	
+	-- Get a reference to the button itself
+	local button = script.Parent
+	
+	-- Connect a function to the MouseButton1Click event (fires when the button is clicked)
+	button.MouseButton1Click:Connect(function()
+		print("Button was clicked! (Client-side message)") 
+		-- Client-side teleport script to Super Sentinel
+		local player = game.Players.LocalPlayer
+		local character = player.Character or player.CharacterAdded:Wait()
+		local hrp = character:WaitForChild("HumanoidRootPart") -- Player's HumanoidRootPart
+	
+		-- Target boss model
+		local bossModel = workspace:WaitForChild("Game Bosses"):WaitForChild("Super Sentinel")
+	
+		-- Find a valid part to teleport to
+		local targetPart = bossModel.PrimaryPart or bossModel:FindFirstChild("HumanoidRootPart") or bossModel:FindFirstChildWhichIsA("BasePart")
+	
+		-- Teleport
+		if targetPart then
+			hrp.CFrame = targetPart.CFrame + Vector3.new(0, 5, 0) -- Teleport 5 studs above
+		else
+			warn("No valid part found in Super Sentinel model!")
+		end
+	
+	end)
+end;
+task.spawn(C_1f);
+-- Workspace.nomrial bosses gui.Frame.Thalis the Ancient.LocalScript
+local function C_21()
+local script = G2L["21"];
+	-- LocalScript (inside your TextButton)
+	
+	-- Get a reference to the button itself
+	local button = script.Parent
+	
+	-- Connect a function to the MouseButton1Click event (fires when the button is clicked)
+	button.MouseButton1Click:Connect(function()
+		print("Button was clicked! (Client-side message)") 
+		-- Client-side teleport script to Thalis the Ancient
+		local player = game.Players.LocalPlayer
+		local character = player.Character or player.CharacterAdded:Wait()
+		local hrp = character:WaitForChild("HumanoidRootPart") -- Player's HumanoidRootPart
+	
+		-- Target boss model
+		local bossModel = workspace:WaitForChild("Game Bosses"):WaitForChild("Thalis the Ancient")
+	
+		-- Find a valid part to teleport to
+		local targetPart = bossModel.PrimaryPart or bossModel:FindFirstChild("HumanoidRootPart") or bossModel:FindFirstChildWhichIsA("BasePart")
+	
+		-- Teleport
+		if targetPart then
+			hrp.CFrame = targetPart.CFrame + Vector3.new(0, 5, 0) -- Teleport 5 studs above
+		else
+			warn("No valid part found in Thalis the Ancient model!")
+		end
+	
+	end)
+end;
+task.spawn(C_21);
+-- Workspace.nomrial bosses gui.Frame.Thalis the Ferocious.LocalScript
+local function C_23()
+local script = G2L["23"];
+	-- LocalScript (inside your TextButton)
+	
+	-- Get a reference to the button itself
+	local button = script.Parent
+	
+	-- Connect a function to the MouseButton1Click event (fires when the button is clicked)
+	button.MouseButton1Click:Connect(function()
+		print("Button was clicked! (Client-side message)") 
+		-- Client-side teleport script to Thalis the Ferocious
+		local player = game.Players.LocalPlayer
+		local character = player.Character or player.CharacterAdded:Wait()
+		local hrp = character:WaitForChild("HumanoidRootPart") -- Player's HumanoidRootPart
+	
+		-- Target boss model
+		local bossModel = workspace:WaitForChild("Game Bosses"):WaitForChild("Thalis the Ferocious")
+	
+		-- Find a valid part to teleport to
+		local targetPart = bossModel.PrimaryPart or bossModel:FindFirstChild("HumanoidRootPart") or bossModel:FindFirstChildWhichIsA("BasePart")
+	
+		-- Teleport
+		if targetPart then
+			hrp.CFrame = targetPart.CFrame + Vector3.new(0, 5, 0) -- Teleport 5 studs above
+		else
+			warn("No valid part found in Thalis the Ferocious model!")
+		end
+	
+	end)
+end;
+task.spawn(C_23);
+-- Workspace.nomrial bosses gui.Frame.The Goldhunter.LocalScript
+local function C_25()
+local script = G2L["25"];
+	-- LocalScript (inside your TextButton)
+	
+	-- Get a reference to the button itself
+	local button = script.Parent
+	
+	-- Connect a function to the MouseButton1Click event (fires when the button is clicked)
+	button.MouseButton1Click:Connect(function()
+		print("Button was clicked! (Client-side message)") 
+		-- Client-side teleport script to The Goldhunter
+		local player = game.Players.LocalPlayer
+		local character = player.Character or player.CharacterAdded:Wait()
+		local hrp = character:WaitForChild("HumanoidRootPart") -- Player's HumanoidRootPart
+	
+		-- Target boss model
+		local bossModel = workspace:WaitForChild("Game Bosses"):WaitForChild("The Goldhunter")
+	
+		-- Find a valid part to teleport to
+		local targetPart = bossModel.PrimaryPart or bossModel:FindFirstChild("HumanoidRootPart") or bossModel:FindFirstChildWhichIsA("BasePart")
+	
+		-- Teleport
+		if targetPart then
+			hrp.CFrame = targetPart.CFrame + Vector3.new(0, 5, 0) -- Teleport 5 studs above
+		else
+			warn("No valid part found in The Goldhunter model!")
+		end
+	
+	end)
+end;
+task.spawn(C_25);
+-- Workspace.nomrial bosses gui.Frame.Ukaroz, Warrior of Eternity.LocalScript
+local function C_27()
+local script = G2L["27"];
+	-- LocalScript (inside your TextButton)
+	
+	-- Get a reference to the button itself
+	local button = script.Parent
+	
+	-- Connect a function to the MouseButton1Click event (fires when the button is clicked)
+	button.MouseButton1Click:Connect(function()
+		print("Button was clicked! (Client-side message)") 
+		-- Client-side teleport script to Ukaroz, Warrior of Eternity
+		local player = game.Players.LocalPlayer
+		local character = player.Character or player.CharacterAdded:Wait()
+		local hrp = character:WaitForChild("HumanoidRootPart") -- Player's HumanoidRootPart
+	
+		-- Target boss model
+		local bossModel = workspace:WaitForChild("Game Bosses"):WaitForChild("Ukaroz, Warrior of Eternity")
+	
+		-- Find a valid part to teleport to
+		local targetPart = bossModel.PrimaryPart or bossModel:FindFirstChild("HumanoidRootPart") or bossModel:FindFirstChildWhichIsA("BasePart")
+	
+		-- Teleport
+		if targetPart then
+			hrp.CFrame = targetPart.CFrame + Vector3.new(0, 5, 0) -- Teleport 5 studs above
+		else
+			warn("No valid part found in Ukaroz, Warrior of Eternity model!")
+		end
+	
+	end)
+end;
+task.spawn(C_27);
+-- Workspace.nomrial bosses gui.Frame.Vitreus Ultimus.LocalScript
+local function C_29()
+local script = G2L["29"];
+	-- LocalScript (inside your TextButton)
+	
+	-- Get a reference to the button itself
+	local button = script.Parent
+	
+	-- Connect a function to the MouseButton1Click event (fires when the button is clicked)
+	button.MouseButton1Click:Connect(function()
+		print("Button was clicked! (Client-side message)") 
+		-- Client-side teleport script to Vitreus Ultimus
+		local player = game.Players.LocalPlayer
+		local character = player.Character or player.CharacterAdded:Wait()
+		local hrp = character:WaitForChild("HumanoidRootPart") -- Player's HumanoidRootPart
+	
+		-- Target boss model
+		local bossModel = workspace:WaitForChild("Game Bosses"):WaitForChild("Vitreus Ultimus")
+	
+		-- Find a valid part to teleport to
+		local targetPart = bossModel.PrimaryPart or bossModel:FindFirstChild("HumanoidRootPart") or bossModel:FindFirstChildWhichIsA("BasePart")
+	
+		-- Teleport
+		if targetPart then
+			hrp.CFrame = targetPart.CFrame + Vector3.new(0, 5, 0) -- Teleport 5 studs above
+		else
+			warn("No valid part found in Vitreus Ultimus model!")
+		end
+	
+	end)
+end;
+task.spawn(C_29);
+-- Workspace.nomrial bosses gui.Frame.Xar-Tul.LocalScript
+local function C_2b()
+local script = G2L["2b"];
+	-- LocalScript (inside your TextButton)
+	
+	-- Get a reference to the button itself
+	local button = script.Parent
+	
+	-- Connect a function to the MouseButton1Click event (fires when the button is clicked)
+	button.MouseButton1Click:Connect(function()
+		print("Button was clicked! (Client-side message)") 
+		-- Client-side teleport script to Xar-Tul
+		local player = game.Players.LocalPlayer
+		local character = player.Character or player.CharacterAdded:Wait()
+		local hrp = character:WaitForChild("HumanoidRootPart") -- Player's HumanoidRootPart
+	
+		-- Target boss model
+		local bossModel = workspace:WaitForChild("Game Bosses"):WaitForChild("Xar-Tul")
+	
+		-- Find a valid part to teleport to
+		local targetPart = bossModel.PrimaryPart or bossModel:FindFirstChild("HumanoidRootPart") or bossModel:FindFirstChildWhichIsA("BasePart")
+	
+		-- Teleport
+		if targetPart then
+			hrp.CFrame = targetPart.CFrame + Vector3.new(0, 5, 0) -- Teleport 5 studs above
+		else
+			warn("No valid part found in Xar-Tul model!")
+		end
+	
+	end)
+end;
+task.spawn(C_2b);
+-- Workspace.nomrial bosses gui.Frame.Yaxocieus Spirit.LocalScript
+local function C_2d()
+local script = G2L["2d"];
+	-- LocalScript (inside your TextButton)
+	
+	-- Get a reference to the button itself
+	local button = script.Parent
+	
+	-- Connect a function to the MouseButton1Click event (fires when the button is clicked)
+	button.MouseButton1Click:Connect(function()
+		print("Button was clicked! (Client-side message)") 
+		-- Client-side teleport script to Yaxocieus Spirit
+		local player = game.Players.LocalPlayer
+		local character = player.Character or player.CharacterAdded:Wait()
+		local hrp = character:WaitForChild("HumanoidRootPart") -- Player's HumanoidRootPart
+	
+		-- Target boss model
+		local bossModel = workspace:WaitForChild("Game Bosses"):WaitForChild("Yaxocieus Spirit")
+	
+		-- Find a valid part to teleport to
+		local targetPart = bossModel.PrimaryPart or bossModel:FindFirstChild("HumanoidRootPart") or bossModel:FindFirstChildWhichIsA("BasePart")
+	
+		-- Teleport
+		if targetPart then
+			hrp.CFrame = targetPart.CFrame + Vector3.new(0, 5, 0) -- Teleport 5 studs above
+		else
+			warn("No valid part found in Yaxocieus Spirit model!")
+		end
+	
+	end)
+end;
+task.spawn(C_2d);
+-- Workspace.nomrial bosses gui.Frame.CLOSE.LocalScript
+local function C_2f()
+local script = G2L["2f"];
+	local button = script.Parent
+	local gui = button:FindFirstAncestorOfClass("ScreenGui")
+	
+	button.MouseButton1Click:Connect(function()
+		if gui then
+			gui.Enabled = false
+		end
+	end)
+	
+end;
+task.spawn(C_2f);
+
+return G2L["1"], require;
