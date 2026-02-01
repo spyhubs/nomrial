@@ -334,7 +334,7 @@ local script = G2L["9"];
 	-- Connect a function to the MouseButton1Click event (fires when the button is clicked)
 	button.MouseButton1Click:Connect(function()
 		print("Button was clicked! (Client-side message)") 
-		loadstring(game:HttpGet('https://raw.githubusercontent.com/spyhubs/nomriallegends/refs/heads/main/shops?token=GHSAT0AAAAAADURAJCMZDUHLJ7ISOUQD4WS2L7X7RQ'))()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/spyhubs/nomrial/refs/heads/main/shops'))()
 	
 	end)
 end;
@@ -350,7 +350,7 @@ local script = G2L["b"];
 	-- Connect a function to the MouseButton1Click event (fires when the button is clicked)
 	button.MouseButton1Click:Connect(function()
 		print("Button was clicked! (Client-side message)") 
-		loadstring(game:HttpGet('https://raw.githubusercontent.com/spyhubs/nomriallegends/refs/heads/main/bosses?token=GHSAT0AAAAAADURAJCMKF3NHQN47ZRMDK5I2L7X32Q'))()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/spyhubs/nomrial/refs/heads/main/bosses'))()
 	
 	end)
 end;
