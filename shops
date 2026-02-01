@@ -1,0 +1,749 @@
+--[=[
+ d888b  db    db d888888b      .d888b.      db      db    db  .d8b.  
+88' Y8b 88    88   `88'        VP  `8D      88      88    88 d8' `8b 
+88      88    88    88            odD'      88      88    88 88ooo88 
+88  ooo 88    88    88          .88'        88      88    88 88~~~88 
+88. ~8~ 88b  d88   .88.        j88.         88booo. 88b  d88 88   88    @uniquadev
+ Y888P  ~Y8888P' Y888888P      888888D      Y88888P ~Y8888P' YP   YP  CONVERTER 
+]=]
+
+-- Instances: 43 | Scripts: 14 | Modules: 0 | Tags: 0
+local G2L = {};
+
+-- Workspace.shop tps
+G2L["1"] = Instance.new("ScreenGui", game:GetService("Players").LocalPlayer:WaitForChild("PlayerGui"));
+G2L["1"]["Name"] = [[shop tps]];
+G2L["1"]["ZIndexBehavior"] = Enum.ZIndexBehavior.Sibling;
+
+
+-- Workspace.shop tps.Frame
+G2L["2"] = Instance.new("Frame", G2L["1"]);
+G2L["2"]["BorderSizePixel"] = 0;
+G2L["2"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["2"]["Size"] = UDim2.new(0, 331, 0, 378);
+G2L["2"]["Position"] = UDim2.new(0.32953, 0, 0.17188, 0);
+G2L["2"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+
+
+-- Workspace.shop tps.Frame.shop teleport title
+G2L["3"] = Instance.new("ImageLabel", G2L["2"]);
+G2L["3"]["BorderSizePixel"] = 0;
+G2L["3"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["3"]["Image"] = [[rbxassetid://92517172059245]];
+G2L["3"]["Size"] = UDim2.new(0, 331, 0, 68);
+G2L["3"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["3"]["BackgroundTransparency"] = 1;
+G2L["3"]["Name"] = [[shop teleport title]];
+
+
+-- Workspace.shop tps.Frame.Diango (Shop)
+G2L["4"] = Instance.new("TextButton", G2L["2"]);
+G2L["4"]["BorderSizePixel"] = 0;
+G2L["4"]["TextSize"] = 14;
+G2L["4"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["4"]["BackgroundColor3"] = Color3.fromRGB(85, 85, 85);
+G2L["4"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["4"]["Size"] = UDim2.new(0, 99, 0, 30);
+G2L["4"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["4"]["Text"] = [[Diango (Shop)]];
+G2L["4"]["Name"] = [[Diango (Shop)]];
+G2L["4"]["Position"] = UDim2.new(0.13595, 0, 0.2381, 0);
+
+
+-- Workspace.shop tps.Frame.Diango (Shop).UICorner
+G2L["5"] = Instance.new("UICorner", G2L["4"]);
+
+
+
+-- Workspace.shop tps.Frame.Diango (Shop).LocalScript
+G2L["6"] = Instance.new("LocalScript", G2L["4"]);
+
+
+
+-- Workspace.shop tps.Frame.Dunkain (Shop)
+G2L["7"] = Instance.new("TextButton", G2L["2"]);
+G2L["7"]["BorderSizePixel"] = 0;
+G2L["7"]["TextSize"] = 14;
+G2L["7"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["7"]["BackgroundColor3"] = Color3.fromRGB(85, 85, 85);
+G2L["7"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["7"]["Size"] = UDim2.new(0, 99, 0, 30);
+G2L["7"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["7"]["Text"] = [[Dunkain (Shop)]];
+G2L["7"]["Name"] = [[Dunkain (Shop)]];
+G2L["7"]["Position"] = UDim2.new(0.13595, 0, 0.34921, 0);
+
+
+-- Workspace.shop tps.Frame.Dunkain (Shop).UICorner
+G2L["8"] = Instance.new("UICorner", G2L["7"]);
+
+
+
+-- Workspace.shop tps.Frame.Dunkain (Shop).LocalScript
+G2L["9"] = Instance.new("LocalScript", G2L["7"]);
+
+
+
+-- Workspace.shop tps.Frame.Luik (Shop)
+G2L["a"] = Instance.new("TextButton", G2L["2"]);
+G2L["a"]["BorderSizePixel"] = 0;
+G2L["a"]["TextSize"] = 14;
+G2L["a"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["a"]["BackgroundColor3"] = Color3.fromRGB(85, 85, 85);
+G2L["a"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["a"]["Size"] = UDim2.new(0, 99, 0, 30);
+G2L["a"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["a"]["Text"] = [[Luik (Shop)]];
+G2L["a"]["Name"] = [[Luik (Shop)]];
+G2L["a"]["Position"] = UDim2.new(0.13595, 0, 0.46032, 0);
+
+
+-- Workspace.shop tps.Frame.Luik (Shop).UICorner
+G2L["b"] = Instance.new("UICorner", G2L["a"]);
+
+
+
+-- Workspace.shop tps.Frame.Luik (Shop).LocalScript
+G2L["c"] = Instance.new("LocalScript", G2L["a"]);
+
+
+
+-- Workspace.shop tps.Frame.Sir Baudemunt (Shop)
+G2L["d"] = Instance.new("TextButton", G2L["2"]);
+G2L["d"]["BorderSizePixel"] = 0;
+G2L["d"]["TextSize"] = 12;
+G2L["d"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["d"]["BackgroundColor3"] = Color3.fromRGB(85, 85, 85);
+G2L["d"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["d"]["Size"] = UDim2.new(0, 99, 0, 30);
+G2L["d"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["d"]["Text"] = [[Sir Baudemunt (Shop)]];
+G2L["d"]["Name"] = [[Sir Baudemunt (Shop)]];
+G2L["d"]["Position"] = UDim2.new(0.13595, 0, 0.56878, 0);
+
+
+-- Workspace.shop tps.Frame.Sir Baudemunt (Shop).UICorner
+G2L["e"] = Instance.new("UICorner", G2L["d"]);
+
+
+
+-- Workspace.shop tps.Frame.Sir Baudemunt (Shop).LocalScript
+G2L["f"] = Instance.new("LocalScript", G2L["d"]);
+
+
+
+-- Workspace.shop tps.Frame.Youri (Shop)
+G2L["10"] = Instance.new("TextButton", G2L["2"]);
+G2L["10"]["BorderSizePixel"] = 0;
+G2L["10"]["TextSize"] = 12;
+G2L["10"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["10"]["BackgroundColor3"] = Color3.fromRGB(85, 85, 85);
+G2L["10"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["10"]["Size"] = UDim2.new(0, 99, 0, 30);
+G2L["10"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["10"]["Text"] = [[Youri (Shop)]];
+G2L["10"]["Name"] = [[Youri (Shop)]];
+G2L["10"]["Position"] = UDim2.new(0.13595, 0, 0.6746, 0);
+
+
+-- Workspace.shop tps.Frame.Youri (Shop).UICorner
+G2L["11"] = Instance.new("UICorner", G2L["10"]);
+
+
+
+-- Workspace.shop tps.Frame.Youri (Shop).LocalScript
+G2L["12"] = Instance.new("LocalScript", G2L["10"]);
+
+
+
+-- Workspace.shop tps.Frame.Coadi (Shop)
+G2L["13"] = Instance.new("TextButton", G2L["2"]);
+G2L["13"]["BorderSizePixel"] = 0;
+G2L["13"]["TextSize"] = 12;
+G2L["13"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["13"]["BackgroundColor3"] = Color3.fromRGB(85, 85, 85);
+G2L["13"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["13"]["Size"] = UDim2.new(0, 99, 0, 30);
+G2L["13"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["13"]["Text"] = [[Coadi (Shop)]];
+G2L["13"]["Name"] = [[Coadi (Shop)]];
+G2L["13"]["Position"] = UDim2.new(0.13595, 0, 0.78571, 0);
+
+
+-- Workspace.shop tps.Frame.Coadi (Shop).UICorner
+G2L["14"] = Instance.new("UICorner", G2L["13"]);
+
+
+
+-- Workspace.shop tps.Frame.Coadi (Shop).LocalScript
+G2L["15"] = Instance.new("LocalScript", G2L["13"]);
+
+
+
+-- Workspace.shop tps.Frame.Desmond (Shop)
+G2L["16"] = Instance.new("TextButton", G2L["2"]);
+G2L["16"]["BorderSizePixel"] = 0;
+G2L["16"]["TextSize"] = 12;
+G2L["16"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["16"]["BackgroundColor3"] = Color3.fromRGB(85, 85, 85);
+G2L["16"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["16"]["Size"] = UDim2.new(0, 99, 0, 30);
+G2L["16"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["16"]["Text"] = [[Desmond (Shop)]];
+G2L["16"]["Name"] = [[Desmond (Shop)]];
+G2L["16"]["Position"] = UDim2.new(0.56495, 0, 0.2381, 0);
+
+
+-- Workspace.shop tps.Frame.Desmond (Shop).UICorner
+G2L["17"] = Instance.new("UICorner", G2L["16"]);
+
+
+
+-- Workspace.shop tps.Frame.Desmond (Shop).LocalScript
+G2L["18"] = Instance.new("LocalScript", G2L["16"]);
+
+
+
+-- Workspace.shop tps.Frame.Alzyan Shop
+G2L["19"] = Instance.new("TextButton", G2L["2"]);
+G2L["19"]["BorderSizePixel"] = 0;
+G2L["19"]["TextSize"] = 12;
+G2L["19"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["19"]["BackgroundColor3"] = Color3.fromRGB(85, 85, 85);
+G2L["19"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["19"]["Size"] = UDim2.new(0, 99, 0, 30);
+G2L["19"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["19"]["Text"] = [[Alzyan Shop]];
+G2L["19"]["Name"] = [[Alzyan Shop]];
+G2L["19"]["Position"] = UDim2.new(0.56495, 0, 0.34921, 0);
+
+
+-- Workspace.shop tps.Frame.Alzyan Shop.UICorner
+G2L["1a"] = Instance.new("UICorner", G2L["19"]);
+
+
+
+-- Workspace.shop tps.Frame.Alzyan Shop.LocalScript
+G2L["1b"] = Instance.new("LocalScript", G2L["19"]);
+
+
+
+-- Workspace.shop tps.Frame.Crystal Shop Main
+G2L["1c"] = Instance.new("TextButton", G2L["2"]);
+G2L["1c"]["BorderSizePixel"] = 0;
+G2L["1c"]["TextSize"] = 12;
+G2L["1c"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["1c"]["BackgroundColor3"] = Color3.fromRGB(85, 85, 85);
+G2L["1c"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["1c"]["Size"] = UDim2.new(0, 99, 0, 30);
+G2L["1c"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["1c"]["Text"] = [[Crystal Shop Main]];
+G2L["1c"]["Name"] = [[Crystal Shop Main]];
+G2L["1c"]["Position"] = UDim2.new(0.56495, 0, 0.46032, 0);
+
+
+-- Workspace.shop tps.Frame.Crystal Shop Main.UICorner
+G2L["1d"] = Instance.new("UICorner", G2L["1c"]);
+
+
+
+-- Workspace.shop tps.Frame.Crystal Shop Main.LocalScript
+G2L["1e"] = Instance.new("LocalScript", G2L["1c"]);
+
+
+
+-- Workspace.shop tps.Frame.Elias Shop Main
+G2L["1f"] = Instance.new("TextButton", G2L["2"]);
+G2L["1f"]["BorderSizePixel"] = 0;
+G2L["1f"]["TextSize"] = 12;
+G2L["1f"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["1f"]["BackgroundColor3"] = Color3.fromRGB(85, 85, 85);
+G2L["1f"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["1f"]["Size"] = UDim2.new(0, 99, 0, 30);
+G2L["1f"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["1f"]["Text"] = [[Elias Shop Main]];
+G2L["1f"]["Name"] = [[Elias Shop Main]];
+G2L["1f"]["Position"] = UDim2.new(0.56495, 0, 0.56878, 0);
+
+
+-- Workspace.shop tps.Frame.Elias Shop Main.UICorner
+G2L["20"] = Instance.new("UICorner", G2L["1f"]);
+
+
+
+-- Workspace.shop tps.Frame.Elias Shop Main.LocalScript
+G2L["21"] = Instance.new("LocalScript", G2L["1f"]);
+
+
+
+-- Workspace.shop tps.Frame.Magic Shop
+G2L["22"] = Instance.new("TextButton", G2L["2"]);
+G2L["22"]["BorderSizePixel"] = 0;
+G2L["22"]["TextSize"] = 12;
+G2L["22"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["22"]["BackgroundColor3"] = Color3.fromRGB(85, 85, 85);
+G2L["22"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["22"]["Size"] = UDim2.new(0, 99, 0, 30);
+G2L["22"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["22"]["Text"] = [[Magic Shop]];
+G2L["22"]["Name"] = [[Magic Shop]];
+G2L["22"]["Position"] = UDim2.new(0.56495, 0, 0.6746, 0);
+
+
+-- Workspace.shop tps.Frame.Magic Shop.UICorner
+G2L["23"] = Instance.new("UICorner", G2L["22"]);
+
+
+
+-- Workspace.shop tps.Frame.Magic Shop.LocalScript
+G2L["24"] = Instance.new("LocalScript", G2L["22"]);
+
+
+
+-- Workspace.shop tps.Frame.Potion Shop
+G2L["25"] = Instance.new("TextButton", G2L["2"]);
+G2L["25"]["BorderSizePixel"] = 0;
+G2L["25"]["TextSize"] = 12;
+G2L["25"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["25"]["BackgroundColor3"] = Color3.fromRGB(85, 85, 85);
+G2L["25"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["25"]["Size"] = UDim2.new(0, 99, 0, 30);
+G2L["25"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["25"]["Text"] = [[Potion Shop]];
+G2L["25"]["Name"] = [[Potion Shop]];
+G2L["25"]["Position"] = UDim2.new(0.56495, 0, 0.78571, 0);
+
+
+-- Workspace.shop tps.Frame.Potion Shop.UICorner
+G2L["26"] = Instance.new("UICorner", G2L["25"]);
+
+
+
+-- Workspace.shop tps.Frame.Potion Shop.LocalScript
+G2L["27"] = Instance.new("LocalScript", G2L["25"]);
+
+
+
+-- Workspace.shop tps.Frame.LocalScript
+G2L["28"] = Instance.new("LocalScript", G2L["2"]);
+
+
+
+-- Workspace.shop tps.Frame.UICorner
+G2L["29"] = Instance.new("UICorner", G2L["2"]);
+
+
+
+-- Workspace.shop tps.Frame.Close gui
+G2L["2a"] = Instance.new("TextButton", G2L["2"]);
+G2L["2a"]["BorderSizePixel"] = 0;
+G2L["2a"]["TextSize"] = 20;
+G2L["2a"]["TextColor3"] = Color3.fromRGB(255, 0, 0);
+G2L["2a"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["2a"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["2a"]["BackgroundTransparency"] = 1;
+G2L["2a"]["Size"] = UDim2.new(0, 200, 0, 36);
+G2L["2a"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["2a"]["Text"] = [[CLOSE]];
+G2L["2a"]["Name"] = [[Close gui]];
+G2L["2a"]["Position"] = UDim2.new(0.19521, 0, 0.86491, 0);
+
+
+-- Workspace.shop tps.Frame.Close gui.LocalScript
+G2L["2b"] = Instance.new("LocalScript", G2L["2a"]);
+
+
+
+-- Workspace.shop tps.Frame.Diango (Shop).LocalScript
+local function C_6()
+local script = G2L["6"];
+	-- LocalScript (inside your TextButton)
+	
+	-- Get a reference to the button itself
+	local button = script.Parent
+	
+	-- Connect a function to the MouseButton1Click event (fires when the button is clicked)
+	button.MouseButton1Click:Connect(function()
+		print("Button was clicked! (Client-side message)") 
+		-- Client-side teleport script to Diango (Shop) (Model)
+		local player = game.Players.LocalPlayer
+		local character = player.Character or player.CharacterAdded:Wait()
+		local hrp = character:WaitForChild("HumanoidRootPart") -- Player's HumanoidRootPart
+	
+		-- Target shop model
+		local shopModel = workspace:WaitForChild("NPCs"):WaitForChild("Shops"):WaitForChild("Diango (Shop)")
+	
+		-- Find a valid part to teleport to
+		local targetPart = shopModel.PrimaryPart or shopModel:FindFirstChild("HumanoidRootPart") or shopModel:FindFirstChildWhichIsA("BasePart")
+	
+		-- Teleport
+		if targetPart then
+			hrp.CFrame = targetPart.CFrame + Vector3.new(0, 5, 0) -- Teleport 5 studs above the part
+		else
+			warn("No valid part found in Diango (Shop) model!")
+		end
+	
+	end)
+end;
+task.spawn(C_6);
+-- Workspace.shop tps.Frame.Dunkain (Shop).LocalScript
+local function C_9()
+local script = G2L["9"];
+	-- LocalScript (inside your TextButton)
+	
+	-- Get a reference to the button itself
+	local button = script.Parent
+	
+	-- Connect a function to the MouseButton1Click event (fires when the button is clicked)
+	button.MouseButton1Click:Connect(function()
+		print("Button was clicked! (Client-side message)") 
+		-- Client-side teleport script to Dunkain (Shop) (Model)
+		local player = game.Players.LocalPlayer
+		local character = player.Character or player.CharacterAdded:Wait()
+		local hrp = character:WaitForChild("HumanoidRootPart") -- Player's HumanoidRootPart
+	
+		-- Target shop model
+		local shopModel = workspace:WaitForChild("NPCs"):WaitForChild("Shops"):WaitForChild("Dunkain (Shop)")
+	
+		-- Find a valid part to teleport to
+		local targetPart = shopModel.PrimaryPart or shopModel:FindFirstChild("HumanoidRootPart") or shopModel:FindFirstChildWhichIsA("BasePart")
+	
+		-- Teleport
+		if targetPart then
+			hrp.CFrame = targetPart.CFrame + Vector3.new(0, 5, 0) -- Teleport 5 studs above the part
+		else
+			warn("No valid part found in Dunkain (Shop) model!")
+		end
+	
+	end)
+end;
+task.spawn(C_9);
+-- Workspace.shop tps.Frame.Luik (Shop).LocalScript
+local function C_c()
+local script = G2L["c"];
+	-- LocalScript (inside your TextButton)
+	
+	-- Get a reference to the button itself
+	local button = script.Parent
+	
+	-- Connect a function to the MouseButton1Click event (fires when the button is clicked)
+	button.MouseButton1Click:Connect(function()
+		print("Button was clicked! (Client-side message)") 
+		-- Client-side teleport script to Luik (Shop) (Model)
+		local player = game.Players.LocalPlayer
+		local character = player.Character or player.CharacterAdded:Wait()
+		local hrp = character:WaitForChild("HumanoidRootPart") -- Player's HumanoidRootPart
+	
+		-- Target shop model
+		local shopModel = workspace:WaitForChild("NPCs"):WaitForChild("Shops"):WaitForChild("Luik (Shop)")
+	
+		-- Find a valid part to teleport to
+		local targetPart = shopModel.PrimaryPart or shopModel:FindFirstChild("HumanoidRootPart") or shopModel:FindFirstChildWhichIsA("BasePart")
+	
+		-- Teleport
+		if targetPart then
+			hrp.CFrame = targetPart.CFrame + Vector3.new(0, 5, 0) -- Teleport 5 studs above the part
+		else
+			warn("No valid part found in Luik (Shop) model!")
+		end
+	
+	
+	end)
+end;
+task.spawn(C_c);
+-- Workspace.shop tps.Frame.Sir Baudemunt (Shop).LocalScript
+local function C_f()
+local script = G2L["f"];
+	-- LocalScript (inside your TextButton)
+	
+	-- Get a reference to the button itself
+	local button = script.Parent
+	
+	-- Connect a function to the MouseButton1Click event (fires when the button is clicked)
+	button.MouseButton1Click:Connect(function()
+		print("Button was clicked! (Client-side message)") 
+		-- Client-side teleport script to Sir Baudemunt (Shop) (Model)
+		local player = game.Players.LocalPlayer
+		local character = player.Character or player.CharacterAdded:Wait()
+		local hrp = character:WaitForChild("HumanoidRootPart") -- Player's HumanoidRootPart
+	
+		-- Target shop model
+		local shopModel = workspace:WaitForChild("NPCs"):WaitForChild("Shops"):WaitForChild("Sir Baudemunt (Shop)")
+	
+		-- Find a valid part to teleport to
+		local targetPart = shopModel.PrimaryPart or shopModel:FindFirstChild("HumanoidRootPart") or shopModel:FindFirstChildWhichIsA("BasePart")
+	
+		-- Teleport
+		if targetPart then
+			hrp.CFrame = targetPart.CFrame + Vector3.new(0, 5, 0) -- Teleport 5 studs above the part
+		else
+			warn("No valid part found in Sir Baudemunt (Shop) model!")
+		end
+	
+	end)
+end;
+task.spawn(C_f);
+-- Workspace.shop tps.Frame.Youri (Shop).LocalScript
+local function C_12()
+local script = G2L["12"];
+	-- LocalScript (inside your TextButton)
+	
+	-- Get a reference to the button itself
+	local button = script.Parent
+	
+	-- Connect a function to the MouseButton1Click event (fires when the button is clicked)
+	button.MouseButton1Click:Connect(function()
+		print("Button was clicked! (Client-side message)") 
+		-- Client-side teleport script to Youri (Shop) (Model)
+		local player = game.Players.LocalPlayer
+		local character = player.Character or player.CharacterAdded:Wait()
+		local hrp = character:WaitForChild("HumanoidRootPart") -- Player's HumanoidRootPart
+	
+		-- Target shop model
+		local shopModel = workspace:WaitForChild("NPCs"):WaitForChild("Shops"):WaitForChild("Youri (Shop)")
+	
+		-- Find a valid part to teleport to
+		local targetPart = shopModel.PrimaryPart or shopModel:FindFirstChild("HumanoidRootPart") or shopModel:FindFirstChildWhichIsA("BasePart")
+	
+		-- Teleport
+		if targetPart then
+			hrp.CFrame = targetPart.CFrame + Vector3.new(0, 5, 0) -- Teleport 5 studs above the part
+		else
+			warn("No valid part found in Youri (Shop) model!")
+		end
+	
+	end)
+end;
+task.spawn(C_12);
+-- Workspace.shop tps.Frame.Coadi (Shop).LocalScript
+local function C_15()
+local script = G2L["15"];
+	-- LocalScript (inside your TextButton)
+	
+	-- Get a reference to the button itself
+	local button = script.Parent
+	
+	-- Connect a function to the MouseButton1Click event (fires when the button is clicked)
+	button.MouseButton1Click:Connect(function()
+		print("Button was clicked! (Client-side message)") 
+		-- Client-side teleport script to Coadi (Shop) (Model)
+		local player = game.Players.LocalPlayer
+		local character = player.Character or player.CharacterAdded:Wait()
+		local hrp = character:WaitForChild("HumanoidRootPart") -- Player's HumanoidRootPart
+	
+		-- Target shop model
+		local shopModel = workspace:WaitForChild("NPCs"):WaitForChild("Coadi (Shop)")
+	
+		-- Find a valid part to teleport to
+		local targetPart = shopModel.PrimaryPart or shopModel:FindFirstChild("HumanoidRootPart") or shopModel:FindFirstChildWhichIsA("BasePart")
+	
+		-- Teleport
+		if targetPart then
+			hrp.CFrame = targetPart.CFrame + Vector3.new(0, 5, 0) -- Teleport 5 studs above the part
+		else
+			warn("No valid part found in Coadi (Shop) model!")
+		end
+	
+	end)
+end;
+task.spawn(C_15);
+-- Workspace.shop tps.Frame.Desmond (Shop).LocalScript
+local function C_18()
+local script = G2L["18"];
+	-- LocalScript (inside your TextButton)
+	
+	-- Get a reference to the button itself
+	local button = script.Parent
+	
+	-- Connect a function to the MouseButton1Click event (fires when the button is clicked)
+	button.MouseButton1Click:Connect(function()
+		print("Button was clicked! (Client-side message)") 
+		-- Client-side teleport script to Desmond (Shop)
+		local player = game.Players.LocalPlayer
+		local character = player.Character or player.CharacterAdded:Wait()
+		local hrp = character:WaitForChild("HumanoidRootPart") -- Player's HumanoidRootPart
+	
+		-- Target NPC model
+		local npcModel = workspace:WaitForChild("NPCs"):WaitForChild("Desmond (Shop)")
+	
+		-- Find a valid part to teleport to
+		local targetPart = npcModel.PrimaryPart or npcModel:FindFirstChild("HumanoidRootPart") or npcModel:FindFirstChildWhichIsA("BasePart")
+	
+		-- Teleport
+		if targetPart then
+			hrp.CFrame = targetPart.CFrame + Vector3.new(0, 5, 0) -- Teleport 5 studs above
+		else
+			warn("No valid part found in Desmond (Shop) model!")
+		end
+	
+	end)
+end;
+task.spawn(C_18);
+-- Workspace.shop tps.Frame.Alzyan Shop.LocalScript
+local function C_1b()
+local script = G2L["1b"];
+	-- LocalScript (inside your TextButton)
+	
+	-- Get a reference to the button itself
+	local button = script.Parent
+	
+	-- Connect a function to the MouseButton1Click event (fires when the button is clicked)
+	button.MouseButton1Click:Connect(function()
+		print("Button was clicked! (Client-side message)") 
+		-- Client-side teleport script to Alzyan Shop (Part)
+		local player = game.Players.LocalPlayer
+		local character = player.Character or player.CharacterAdded:Wait()
+		local hrp = character:WaitForChild("HumanoidRootPart") -- Player's HumanoidRootPart
+	
+		-- Target Part
+		local targetPart = workspace:WaitForChild("NPCs"):WaitForChild("Shops"):WaitForChild("Alzyan Shop")
+	
+		-- Teleport
+		if targetPart and targetPart:IsA("BasePart") then
+			hrp.CFrame = targetPart.CFrame + Vector3.new(0, 5, 0) -- Teleport 5 studs above the part
+		else
+			warn("Alzyan Shop is not a valid Part!")
+		end
+	
+	end)
+end;
+task.spawn(C_1b);
+-- Workspace.shop tps.Frame.Crystal Shop Main.LocalScript
+local function C_1e()
+local script = G2L["1e"];
+	-- LocalScript (inside your TextButton)
+	
+	-- Get a reference to the button itself
+	local button = script.Parent
+	
+	-- Connect a function to the MouseButton1Click event (fires when the button is clicked)
+	button.MouseButton1Click:Connect(function()
+		print("Button was clicked! (Client-side message)") 
+		-- Client-side teleport script to Crystal Shop Main (Part)
+		local player = game.Players.LocalPlayer
+		local character = player.Character or player.CharacterAdded:Wait()
+		local hrp = character:WaitForChild("HumanoidRootPart") -- Player's HumanoidRootPart
+	
+		-- Target Part
+		local targetPart = workspace:WaitForChild("NPCs"):WaitForChild("Shops"):WaitForChild("Crystal Shop Main")
+	
+		-- Teleport
+		if targetPart and targetPart:IsA("BasePart") then
+			hrp.CFrame = targetPart.CFrame + Vector3.new(0, 5, 0) -- Teleport 5 studs above the part
+		else
+			warn("Crystal Shop Main is not a valid Part!")
+		end
+	
+	end)
+end;
+task.spawn(C_1e);
+-- Workspace.shop tps.Frame.Elias Shop Main.LocalScript
+local function C_21()
+local script = G2L["21"];
+	-- LocalScript (inside your TextButton)
+	
+	-- Get a reference to the button itself
+	local button = script.Parent
+	
+	-- Connect a function to the MouseButton1Click event (fires when the button is clicked)
+	button.MouseButton1Click:Connect(function()
+		print("Button was clicked! (Client-side message)") 
+		-- Client-side teleport script to Elias Shop Main (Part)
+		local player = game.Players.LocalPlayer
+		local character = player.Character or player.CharacterAdded:Wait()
+		local hrp = character:WaitForChild("HumanoidRootPart") -- Player's HumanoidRootPart
+	
+		-- Target Part
+		local targetPart = workspace:WaitForChild("NPCs"):WaitForChild("Shops"):WaitForChild("Elias Shop Main")
+	
+		-- Teleport
+		if targetPart and targetPart:IsA("BasePart") then
+			hrp.CFrame = targetPart.CFrame + Vector3.new(0, 5, 0) -- Teleport 5 studs above the part
+		else
+			warn("Elias Shop Main is not a valid Part!")
+		end
+	
+	end)
+end;
+task.spawn(C_21);
+-- Workspace.shop tps.Frame.Magic Shop.LocalScript
+local function C_24()
+local script = G2L["24"];
+	-- LocalScript (inside your TextButton)
+	
+	-- Get a reference to the button itself
+	local button = script.Parent
+	
+	-- Connect a function to the MouseButton1Click event (fires when the button is clicked)
+	button.MouseButton1Click:Connect(function()
+		print("Button was clicked! (Client-side message)") 
+		-- Client-side teleport script to Magic Shop (Part)
+		local player = game.Players.LocalPlayer
+		local character = player.Character or player.CharacterAdded:Wait()
+		local hrp = character:WaitForChild("HumanoidRootPart") -- Player's HumanoidRootPart
+	
+		-- Target Part
+		local targetPart = workspace:WaitForChild("NPCs"):WaitForChild("Shops"):WaitForChild("Magic Shop")
+	
+		-- Teleport
+		if targetPart and targetPart:IsA("BasePart") then
+			hrp.CFrame = targetPart.CFrame + Vector3.new(0, 5, 0) -- Teleport 5 studs above the part
+		else
+			warn("Magic Shop is not a valid Part!")
+		end
+	
+	end)
+end;
+task.spawn(C_24);
+-- Workspace.shop tps.Frame.Potion Shop.LocalScript
+local function C_27()
+local script = G2L["27"];
+	-- LocalScript (inside your TextButton)
+	
+	-- Get a reference to the button itself
+	local button = script.Parent
+	
+	-- Connect a function to the MouseButton1Click event (fires when the button is clicked)
+	button.MouseButton1Click:Connect(function()
+		print("Button was clicked! (Client-side message)") 
+		-- Client-side teleport script to Potion Shop (Part)
+		local player = game.Players.LocalPlayer
+		local character = player.Character or player.CharacterAdded:Wait()
+		local hrp = character:WaitForChild("HumanoidRootPart") -- Player's HumanoidRootPart
+	
+		-- Target Part
+		local targetPart = workspace:WaitForChild("NPCs"):WaitForChild("Shops"):WaitForChild("Potion Shop")
+	
+		-- Teleport
+		if targetPart and targetPart:IsA("BasePart") then
+			hrp.CFrame = targetPart.CFrame + Vector3.new(0, 5, 0) -- Teleport 5 studs above the part
+		else
+			warn("Potion Shop is not a valid Part!")
+		end
+	
+	end)
+end;
+task.spawn(C_27);
+-- Workspace.shop tps.Frame.LocalScript
+local function C_28()
+local script = G2L["28"];
+	script.Parent.Active = true
+	script.Parent.Draggable = true
+end;
+task.spawn(C_28);
+-- Workspace.shop tps.Frame.Close gui.LocalScript
+local function C_2b()
+local script = G2L["2b"];
+	-- Close Frame GUI Script
+	local button = script.Parent -- The button this script is inside
+	local frame = button.Parent -- Assumes the button is directly inside the Frame
+	
+	-- Close the frame when the button is clicked
+	button.MouseButton1Click:Connect(function()
+		frame.Visible = false -- Hides the frame
+	end)
+	
+end;
+task.spawn(C_2b);
+
+return G2L["1"], require;
